@@ -1,0 +1,4 @@
+executing==2.0.0
+setuptools==65.5.0
+termcolor==2.3.0
+wcwidth==0.2.8

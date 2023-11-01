@@ -1,0 +1,508 @@
+internalName,ItemName,ImageNo,cost,_isStack,base,power,level,effect,value,fire,soil,water,wind,category_00,category_01,category_02,category_03,analyze_flag,cost2,equipFrame,equipCost,PC00,PC01,PC02,PC03,PC04,PC05,PC06,PC07,PC08,PC09,PC10,PC11,HP,MP,ATK,DEF,SPD,ItemTag
+star-fruit,Star Fruit,24,1,1,ITEM_KIND_MATERIAL,2,1,50,10,1,,,,plant,fruit,,,-1,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_STAR_FRUIT
+ore-pumpkin,Ore Pumpkin,83,3,0,ITEM_KIND_MATERIAL,1,10,30,10,1,,,,plant,,,,-1,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_ORE_PUMPKIN
+sand-pumpkin,Sand Pumpkin,84,2,1,ITEM_KIND_MATERIAL,1,2,50,10,,1,,,plant,vegetable,,,-1,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_SAND_PUMPKIN
+water,Water,398,6,1,ITEM_KIND_MATERIAL,2,1,50,20,,,1,,water,liquid,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_WATER
+rich-milk,Rich Milk,118,4,1,ITEM_KIND_MATERIAL,2,2,60,20,,,1,,liquid,oil,,,-1,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_STRONG_MILK
+shelbani-wheat,Shelbani Wheat,19,1,1,ITEM_KIND_MATERIAL,2,1,50,10,,1,,1,plant,grain,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_SHELBANI_WHEAT
+palma,Palma,22,2,1,ITEM_KIND_MATERIAL,1,3,60,15,,1,,,plant,,,,-1,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_PARMA
+taun,Taun,21,1,1,ITEM_KIND_MATERIAL,0,0,50,10,,1,,,plant,magic-herb,medic-ing,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_MAGIC_GLASS
+verdant-taun,Verdant Taun,252,2,0,ITEM_KIND_MATERIAL,2,1,60,15,,1,1,,plant,magic-herb,vegetable,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_GREEN_TORN
+mutated-taun,Mutated Taun,253,3,0,ITEM_KIND_MATERIAL,4,2,40,10,,,1,1,plant,magic-herb,elixir,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_MUTATE_TORN
+trio-taun,Trio Taun,254,10,0,ITEM_KIND_MATERIAL,3,17,80,35,,1,,,plant,magic-herb,medic-ing,mystery,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_TRIO_TORN
+lentil,Lentil,109,1,1,ITEM_KIND_MATERIAL,1,1,50,10,,1,,,plant,grain,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_LENTIL
+big-lentil,Big Lentil,110,3,0,ITEM_KIND_MATERIAL,3,8,70,20,,1,,,plant,grain,oil,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_BIG_LENTIL
+umbrella-tree-strawberry,Umbrella Tree Strawberry,89,-1,1,ITEM_KIND_MATERIAL,2,10,70,20,,,1,1,plant,fruit,aroma,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_OOGASA_STRAWBERRY
+beehive,Beehive,255,1,1,ITEM_KIND_MATERIAL,1,2,50,10,,,,1,bee-hive,fuel,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_HONEY_BEEHIVE
+silver-beehive,Silver Beehive,256,5,0,ITEM_KIND_MATERIAL,2,5,70,15,1,,,1,bee-hive,fuel,,,-1,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_SILVER_BEEHIVE
+golden-beehive,Golden Beehive,257,6,0,ITEM_KIND_MATERIAL,3,20,90,15,1,1,,1,bee-hive,fuel,jewel,,-1,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_GOLD_HEEHIVE
+red-clay,Red Clay,258,2,1,ITEM_KIND_MATERIAL,1,2,60,15,1,,,,clay,medic-ing,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_RED_CLAY
+blue-clay,Blue Clay,259,3,1,ITEM_KIND_MATERIAL,2,2,60,20,,,1,,clay,ore,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_BLUE_CLAY
+green-clay,Green Clay,260,4,1,ITEM_KIND_MATERIAL,2,2,60,20,,,,1,clay,plant,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_GREEN_CLAY
+marine-clay,Marine Clay,261,2,1,ITEM_KIND_MATERIAL,1,1,30,10,,1,,,clay,seasoning,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_YELLOW_CLAY
+animal-meat,Animal Meat,262,3,1,ITEM_KIND_MATERIAL,1,0,50,20,,1,,,meat,smelly,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_ANIMAL_MEAT
+fresh-meat,Fresh Meat,263,5,0,ITEM_KIND_MATERIAL,2,1,60,15,,1,1,,meat,smelly,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_FLESH_MEAT
+marbled-meat,Marbled Meat,105,7,0,ITEM_KIND_MATERIAL,3,10,80,10,,1,1,1,meat,medic-ing,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_SHIMOFURI_MEAT
+wild-pelt,Wild Pelt,264,2,1,ITEM_KIND_MATERIAL,1,1,50,15,1,,,,pelt,animal,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_SOFTLY_FUR
+superior-pelt,Superior Pelt,265,6,0,ITEM_KIND_MATERIAL,2,6,70,25,,,,1,pelt,animal,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_FINE_FUR
+shining-pelt,Shining Pelt,106,10,0,ITEM_KIND_MATERIAL,3,13,80,15,1,1,,1,pelt,animal,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_SHINING_FUR
+animal-bone,Animal Bone,266,2,1,ITEM_KIND_MATERIAL,0,1,60,10,,1,,,animal,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_BEAST_BONE
+beast-bone,Beast Bone,107,6,1,ITEM_KIND_MATERIAL,2,10,70,15,,1,,,animal,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_HEAVY_BEAST_BONE
+dragon-bone,Dragon Bone,108,10,0,ITEM_KIND_MATERIAL,3,13,80,15,1,1,,,dragon-material,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_DRAGON_BONE
+trash,Trash,54,-1,0,ITEM_KIND_MATERIAL,1,0,0,10,1,,,,fuel,smelly,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_GOMIKUZU
+junk,Junk,267,1,1,ITEM_KIND_MATERIAL,2,2,0,10,,1,,,metal,antique,ancient-relic,,,10,,,,,,,,,,,,,,,,,,,,ITEM_MAT_JUNK
+scrap-metal,Scrap Metal,268,1,1,ITEM_KIND_MATERIAL,1,2,40,15,1,,,,metal,antique,ancient-relic,,,15,,,,,,,,,,,,,,,,,,,,ITEM_MAT_SCRAP_IRON
+bent-screw,Bent Screw,269,1,1,ITEM_KIND_MATERIAL,1,2,30,10,,1,,,metal,antique,ancient-relic,,,10,,,,,,,,,,,,,,,,,,,,ITEM_MAT_BEND_BOLT
+rusty-cog,Rusty Cog,10,2,1,ITEM_KIND_MATERIAL,1,2,30,15,,,,1,metal,antique,ancient-relic,,,15,,,,,,,,,,,,,,,,,,,,ITEM_MAT_RUSTY_GEAR
+dark-iron-gear,Dark Iron Gear,11,12,0,ITEM_KIND_MATERIAL,2,17,50,20,1,,,1,metal,antique,ancient-relic,,,80,,,,,,,,,,,,,,,,,,,,ITEM_MAT_DARK_IRON_GEAR
+small-relic,Small Relic,81,6,1,ITEM_KIND_MATERIAL,1,8,70,20,,1,,,metal,antique,ancient-power,ancient-relic,,50,,,,,,,,,,,,,,,,,,,,ITEM_MAT_SMALL_RELIC
+double-foot-component,Double Foot Component,128,17,0,ITEM_KIND_MATERIAL,3,20,80,20,1,,,1,metal,antique,ancient-power,ancient-relic,,100,,,,,,,,,,,,,,,,,,,,ITEM_MAT_CONDENSER
+mixed-oil,Mixed Oil,270,2,1,ITEM_KIND_MATERIAL,1,1,60,20,1,,1,,liquid,oil,fuel,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_MIXTURE_OIL
+rabbit-fur,Rabbit Fur,2,3,1,ITEM_KIND_MATERIAL,1,2,50,15,,1,,,thread,animal,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_RABBIT_HAIR
+rabbit-horn,Rabbit Horn,3,5,1,ITEM_KIND_MATERIAL,2,2,70,20,1,,,,animal,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_RABBIT_HORN
+sand-runner-feather,Sand Runner Feather,4,4,1,ITEM_KIND_MATERIAL,1,4,50,10,,,,1,animal,feather,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_SAND_RUNNERS_FEATHER
+sand-runner-tailfeather,Sand Runner Tailfeather,5,5,1,ITEM_KIND_MATERIAL,2,2,70,15,,,,1,animal,feather,thread,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_SAND_RUNNERS_TAIL
+slag-fragment,Slag Fragment,116,-1,1,ITEM_KIND_MATERIAL,0,2,40,1,1,1,1,1,slag-part,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_SLUG_FRAGMENT
+slag-cable,Slag Cable,271,-1,1,ITEM_KIND_MATERIAL,1,4,60,15,1,,1,,slag-part,thread,,,-1,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_SLAG_CABLE
+slag-antenna,Slag Antenna,272,-1,1,ITEM_KIND_MATERIAL,2,4,50,10,1,,,1,slag-part,ancient-power,,,-1,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_SLAG_ANTENA
+slag-heart,Slag Heart,273,-1,1,ITEM_KIND_MATERIAL,3,4,70,20,1,1,,,slag-part,meat,,,-1,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_SLAG_HEART
+slag-memory,Slag Memory,274,-1,1,ITEM_KIND_MATERIAL,2,4,70,20,1,,1,,slag-part,metal,,,-1,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_SLAG_MEMORY
+slag-scissors,Slag Scissors,6,-1,1,ITEM_KIND_MATERIAL,1,4,50,20,1,1,,,slag-part,,,,-1,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_SLUG_SCISSORS
+slag-blade,Slag Blade,102,-1,1,ITEM_KIND_MATERIAL,1,4,80,20,1,,,1,slag-part,feather,,,-1,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_SLUG_BLADE
+slag-core,Slag Core,103,-1,1,ITEM_KIND_MATERIAL,3,8,80,20,1,,1,1,slag-part,elixir,,,-1,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_SLUG_CORE
+slag-coin,Slag Coin,96,30,1,ITEM_KIND_MATERIAL,3,10,50,15,1,,,,slag-part,antique,ancient-relic,,-1,180,,,,,,,,,,,,,,,,,,,,ITEM_MAT_SLUG_COIN
+slag-amber,Slag Amber,90,15,0,ITEM_KIND_MATERIAL,2,11,70,20,1,1,,,slag-part,jewel,mystery,,-1,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_SLUG_AMBER
+mantis-blade,Mantis Blade,275,8,1,ITEM_KIND_MATERIAL,1,3,80,20,1,,,1,animal,meat,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_MANTIS_SICKLE
+boar-tusk,Boar Tusk,100,6,1,ITEM_KIND_MATERIAL,2,5,80,20,,1,,1,animal,medic-ing,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_BOARS_HORN
+steel-fur,Steel Fur,101,6,0,ITEM_KIND_MATERIAL,1,8,70,20,,,1,1,animal,thread,metal,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_STEEL_HAIR
+unknown-egg,Unknown Egg,276,1,1,ITEM_KIND_MATERIAL,1,1,50,10,,,,1,oil,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_MYSTIC_EGG
+colseit-apple,Colseit Apple,277,6,1,ITEM_KIND_MATERIAL,1,0,50,15,,,1,,apple,fruit,aroma,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_APPLE
+poison-apple,Poison Apple,278,-1,1,ITEM_KIND_MATERIAL,3,2,30,25,1,,,,apple,fruit,poison,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_POISON_APPLE
+golden-apple,Golden Apple,279,18,0,ITEM_KIND_MATERIAL,4,11,90,15,1,1,1,1,apple,fruit,jewel,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_GOLDEN_APPLE
+anti-bug-grass,Anti-Bug Grass,280,1,1,ITEM_KIND_MATERIAL,2,0,50,10,,,,1,plant,smelly,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_MOTHBALL_GRASS
+dusk-sea-sand,Dusk Sea Sand,7,-1,1,ITEM_KIND_MATERIAL,0,0,10,10,,1,,,sand,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_TWILIGHT_SEA_SAND
+white-sand-powder,White Sand Powder,8,3,1,ITEM_KIND_MATERIAL,2,4,50,10,,1,1,,sand,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_WHITE_SAND
+sand-crystal,Sand Crystal,113,3,1,ITEM_KIND_MATERIAL,1,4,50,15,,1,,1,sand,jewel,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_SAND_CRYSTAL_STONE
+marble-rock-salt,Marble Rock Salt,104,9,1,ITEM_KIND_MATERIAL,2,7,50,15,,1,1,,natural,seasoning,sand,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_MARBLE_SOLT
+stone-coral,Stone Coral,12,3,1,ITEM_KIND_MATERIAL,1,6,70,15,,1,1,,animal,ore,antique,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_STONE_CORAL
+giant-triangular-fang,Giant Triangular Fang,13,1,1,ITEM_KIND_MATERIAL,2,5,90,20,,1,1,,animal,ore,antique,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_HUGE_TRIANGLE_FANG
+giant-fossil,Giant Fossil,14,1,0,ITEM_KIND_MATERIAL,3,7,80,20,1,1,,,animal,ore,antique,mystery,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_HUGE_THING_FOSSIL
+hundred-color-shell,Hundred Color Shell,15,1,1,ITEM_KIND_MATERIAL,0,3,50,15,,,1,,animal,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_MULTI_COLOR_SHELL
+whale-whisker,Whale Whisker,16,8,1,ITEM_KIND_MATERIAL,2,12,60,15,,,1,,thread,animal,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_BEARD_OF_WHALE
+white-crest-fish,White Crest Fish,123,1,1,ITEM_KIND_MATERIAL,2,1,50,15,,,1,,fish,medic-ing,seasoning,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_SHIRANAMI_FISH
+butterfly-fish,Butterfly Fish,126,1,1,ITEM_KIND_MATERIAL,1,3,60,10,,,1,1,fish,fuel,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_BUTTERFLY_FISH
+balloon-fish,Balloon Fish,129,-1,0,ITEM_KIND_MATERIAL,2,5,40,25,1,,1,,poison,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_BALLOON_FISH
+smech,Smech,124,4,0,ITEM_KIND_MATERIAL,3,6,70,20,,1,1,,fish,mystery,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_SUMEC
+fish-lord,Fish Lord,125,11,0,ITEM_KIND_MATERIAL,4,14,90,15,1,1,1,,fish,medic-ing,elixir,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_NUSHI
+nectar-springwater,Nectar Springwater,17,12,0,ITEM_KIND_MATERIAL,3,7,80,35,,,1,,water,liquid,medic-ing,elixir,-1,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_SWEET_WATER
+dry-wood-chips,Dry Wood Chips,23,2,1,ITEM_KIND_MATERIAL,1,2,40,10,,1,,1,lumber,fuel,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_DRY_WOOD
+cactus-palm,Cactus Palm,26,3,1,ITEM_KIND_MATERIAL,0,0,50,5,1,1,1,1,plant,vegetable,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_CACTUS_PARM
+ultramarine-root,Ultramarine Root,94,6,1,ITEM_KIND_MATERIAL,2,9,60,20,,1,1,,plant,vegetable,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_NAVY_BLUE_ROOT
+gravistone,Gravistone,32,2,1,ITEM_KIND_MATERIAL,1,3,60,25,,,,1,mystery,ore,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_GRAVI_STONE
+dark-iron-ore,Dark Iron Ore,35,5,1,ITEM_KIND_MATERIAL,1,5,50,20,1,1,,,ore,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_DARK_IRON_ORE
+holinica-ore,Holinica Ore,31,3,1,ITEM_KIND_MATERIAL,1,3,60,30,,1,,,ore,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_HLINICA_ORE
+leichester-meteorite-iron,Leichester Meteorite Iron,28,7,1,ITEM_KIND_MATERIAL,2,7,70,20,,1,,1,mystery,ore,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_RESTER_METEORITE
+mountain-bird-feather,Mountain Bird Feather,281,2,1,ITEM_KIND_MATERIAL,1,2,60,15,,,,1,animal,feather,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_BIRD_FEATHER
+wind-rider-feather,Wind Rider Feather,80,7,0,ITEM_KIND_MATERIAL,3,11,80,30,,,,1,thread,animal,feather,mystery,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_WINDRIDERS_FEATHER
+evergreen-leaf,Evergreen Leaf,85,9,1,ITEM_KIND_MATERIAL,2,12,60,20,,,1,1,plant,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_EVERGREEN_LEAF
+glass-shards,Glass Shards,86,5,1,ITEM_KIND_MATERIAL,0,6,40,10,,1,1,,synthesis,antique,ancient-relic,,-1,35,,,,,,,,,,,,,,,,,,,,ITEM_MAT_GLASS_FRAGMENT
+tsuchishinobi,Tsuchishinobi,87,11,1,ITEM_KIND_MATERIAL,3,14,70,35,,1,,,plant,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_TSUCHISHINOBI
+old-treasure-chest,Old Treasure Chest,88,-1,1,ITEM_KIND_MATERIAL,0,0,30,30,,,,1,lumber,ancient-relic,,,-1,5,,,,,,,,,,,,,,,,,,,,ITEM_MAT_OLD_TREASURE_CHEST
+reaper-s-kiss,Reaper's Kiss,91,-1,1,ITEM_KIND_MATERIAL,1,3,20,40,,1,,,plant,poison,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_DEATH_KISS
+contaminated-water,Contaminated Water,97,-1,1,ITEM_KIND_MATERIAL,3,0,20,5,,1,1,,water,liquid,gunpowder,poison,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_MUDDY_WATER
+stink-bean,Stink Bean,93,-1,1,ITEM_KIND_MATERIAL,1,1,30,10,,1,,1,plant,smelly,grain,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_STINK_BEAN
+angel-hair,Angel Hair,95,-1,1,ITEM_KIND_MATERIAL,2,7,40,20,,,1,1,plant,poison,natural,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_ANGEL_HAIR
+firefly-grass,Firefly Grass,181,2,1,ITEM_KIND_MATERIAL,3,10,50,10,,1,,1,plant,vegetable,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_HOTARU_PLANT
+smoke-mushroom,Smoke Mushroom,282,-1,1,ITEM_KIND_MATERIAL,1,5,30,15,1,,,,vegetable,gas,smelly,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_SMOKE_FUNGUS
+dark-shoot,Dark Shoot,283,3,0,ITEM_KIND_MATERIAL,3,5,50,20,,1,,,vegetable,fuel,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_NIGHT_FUNGUS
+mossy-driftwood,Mossy Driftwood,284,5,1,ITEM_KIND_MATERIAL,2,13,40,20,,1,1,,lumber,,,,-1,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_MOSS_WOOD
+lotus,Lotus,285,6,1,ITEM_KIND_MATERIAL,3,13,70,15,,1,1,,plant,medic-ing,mystery,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_LOTUS
+star-core,Star Core,98,1,1,ITEM_KIND_MATERIAL,1,6,50,15,1,,,1,metal,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_STAR_CORE
+ancient-tree-splinter,Ancient Tree Splinter,112,8,0,ITEM_KIND_MATERIAL,2,10,80,15,,1,1,,lumber,elixir,,,-1,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_OLD_TREE_FRAGMENT
+giant-scale,Giant Scale,115,2,1,ITEM_KIND_MATERIAL,1,12,70,25,1,,1,,animal,pelt,dragon-material,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_HUGE_SCALE
+permeating-toxin,Permeating Toxin,92,-1,1,ITEM_KIND_MATERIAL,1,3,30,10,1,1,,,fuel,poison,clay,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_PERMEATE_POISON
+white-lump,White Lump,119,4,1,ITEM_KIND_MATERIAL,2,1,50,15,,,1,,oil,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_WHITE_CURD
+ancient-stone,Ancient Stone,286,2,1,ITEM_KIND_MATERIAL,1,4,60,15,,1,,,ore,antique,ancient-relic,,,15,,,,,,,,,,,,,,,,,,,,ITEM_MAT_ANTIQUE_STONE
+phlogiston,Phlogiston,287,3,1,ITEM_KIND_MATERIAL,1,1,60,20,1,,,,natural,gunpowder,,,-1,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_FROGISTON
+aqua-light,Aqua Light,288,3,1,ITEM_KIND_MATERIAL,1,2,60,20,,,1,,natural,liquid,,,-1,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_AQUALITE
+wind-core,Wind Core,289,3,1,ITEM_KIND_MATERIAL,1,2,60,20,,,,1,natural,gas,,,-1,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_WINDCORE
+glass-core,Glass Core,290,3,1,ITEM_KIND_MATERIAL,1,3,60,20,,1,,,ore,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_GLASS_CORE
+zemnite,Zemnite,9,11,1,ITEM_KIND_MATERIAL,3,5,60,15,,1,1,,natural,medic-ing,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_ZEMNITE
+crystal-fragment,Crystal Fragment,291,6,1,ITEM_KIND_MATERIAL,1,5,60,20,,1,,1,ore,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_CRYSTAL_FRAGMENT
+melting-glass-shard,Melting Glass Shard,292,5,1,ITEM_KIND_MATERIAL,1,8,70,15,,,1,1,fuel,gunpowder,natural,ancient-relic,,30,,,,,,,,,,,,,,,,,,,,ITEM_MAT_MELTY_GLASS_FRAGMENT
+blazing-ore,Blazing Ore,293,9,1,ITEM_KIND_MATERIAL,1,11,80,20,1,1,,,ore,jewel,gunpowder,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_BLAZING_SUN_ORE
+silver-groundwater,Silver Groundwater,294,-1,1,ITEM_KIND_MATERIAL,2,9,60,10,,1,1,,liquid,metal,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_SILVER_UNDERGROUND_WATER
+endangered-herb,Endangered Herb,27,32,0,ITEM_KIND_MATERIAL,3,22,100,20,,1,1,1,plant,elixir,medic-ing,mystery,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_ENDANGERED_HARB
+time-flower,Time Flower,295,20,1,ITEM_KIND_MATERIAL,2,26,100,20,1,1,1,1,plant,elixir,ancient-power,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_TIMELESS_FLOWER
+diamond-ore,Diamond Ore,296,14,0,ITEM_KIND_MATERIAL,4,19,90,40,,1,,,jewel,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_DIAMOND_ORE
+enormous-tail,Enormous Tail,297,12,0,ITEM_KIND_MATERIAL,2,18,90,40,,1,,,dragon-material,meat,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_GREAT_TAIL
+king-s-wing,King's Wing,298,14,0,ITEM_KIND_MATERIAL,3,18,90,40,,,,1,dragon-material,meat,pelt,feather,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_KINGS_WING
+dragon-core,Dragon Core,299,21,0,ITEM_KIND_MATERIAL,3,21,100,20,1,1,1,1,dragon-material,elixir,ore,gunpowder,-1,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_DRAGON_CORE
+pendelook,Pendelook,300,7,0,ITEM_KIND_MATERIAL,3,16,70,10,1,,,1,mystery,jewel,,,-1,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_PENDELOAK
+forgetful-grass,Forgetful Grass,301,6,1,ITEM_KIND_MATERIAL,2,18,70,15,1,1,,,plant,elixir,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_FORGET_PEONY
+dunkelheit,Dunkelheit,302,21,0,ITEM_KIND_MATERIAL,3,29,100,20,1,1,1,1,plant,elixir,medic-ing,mystery,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_DUNKELHEIT
+ancient-map,Ancient Map,99,6,1,ITEM_KIND_MATERIAL,1,8,50,30,,,,1,paper,antique,,,-1,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_OLD_MAPS
+sand-dragon-scale,Sand Dragon Scale,1,-1,1,ITEM_KIND_MATERIAL,2,15,90,10,1,1,1,1,dragon-material,mystery,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_SAND_DRAGONS_SCALE
+tidal-spear,Tidal Spear,53,-1,1,ITEM_KIND_MATERIAL,3,17,100,50,,,1,,weapon-broom,weapon-twin-sword,weapon-pile-driver,weapon-longsword,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_TIDAL_SPEAR
+paper-scraps,Paper Scraps,392,-1,1,ITEM_KIND_MATERIAL,0,0,20,10,,,1,,paper,fuel,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_SCRAP_PAPER
+elaborate-screw,Elaborate Screw,397,31,0,ITEM_KIND_MATERIAL,2,19,80,30,1,,,,metal,antique,ancient-relic,,,180,,,,,,,,,,,,,,,,,,,,ITEM_MAT_ELABORATE_SCREW
+old-stone,Old Stone,396,22,0,ITEM_KIND_MATERIAL,3,17,70,40,,1,,,metal,ore,clay,ancient-relic,,140,,,,,,,,,,,,,,,,,,,,ITEM_MAT_OLD_STONE
+ancient-gold-thread,Ancient Gold Thread,394,42,0,ITEM_KIND_MATERIAL,3,20,80,40,,1,,,thread,natural,ancient-relic,,,220,,,,,,,,,,,,,,,,,,,,ITEM_MAT_GOLDEN_YARN
+ancient-water,Ancient Water,393,48,0,ITEM_KIND_MATERIAL,2,19,90,40,,,1,,water,liquid,medic-ing,mystery,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_ELDER_WATER
+medical-foundation,Medical Foundation,395,16,0,ITEM_KIND_MATERIAL,2,18,90,20,,,1,1,medic-ing,oil,elixir,ancient-relic,,90,,,,,,,,,,,,,,,,,,,,ITEM_MAT_OLD_MEDICINE_MATERIAL
+bad-water,Bad Water,251,1,1,ITEM_KIND_MATERIAL,1,0,30,5,,,1,,water,liquid,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_ITEM132
+cloth-scraps,Cloth Scraps,422,1,1,ITEM_KIND_MATERIAL,1,1,40,10,,1,,1,cloth,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_ITEM133
+gathering-item-133,Gathering Item 133,0,-1,1,ITEM_KIND_MATERIAL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_ITEM134
+gathering-item-134,Gathering Item 134,0,-1,1,ITEM_KIND_MATERIAL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_ITEM135
+gathering-item-135,Gathering Item 135,0,-1,1,ITEM_KIND_MATERIAL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_ITEM136
+gathering-item-136,Gathering Item 136,0,-1,1,ITEM_KIND_MATERIAL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_ITEM137
+gathering-item-137,Gathering Item 137,0,-1,1,ITEM_KIND_MATERIAL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_ITEM138
+gathering-item-138,Gathering Item 138,0,-1,1,ITEM_KIND_MATERIAL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_ITEM139
+gathering-item-139,Gathering Item 139,0,-1,1,ITEM_KIND_MATERIAL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_ITEM140
+gathering-item-140,Gathering Item 140,0,-1,1,ITEM_KIND_MATERIAL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_ITEM141
+gathering-item-141,Gathering Item 141,0,-1,1,ITEM_KIND_MATERIAL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_ITEM142
+gathering-item-142,Gathering Item 142,0,-1,1,ITEM_KIND_MATERIAL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_ITEM143
+gathering-item-143,Gathering Item 143,0,-1,1,ITEM_KIND_MATERIAL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_ITEM144
+gathering-item-144,Gathering Item 144,0,-1,1,ITEM_KIND_MATERIAL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_ITEM145
+gathering-item-145,Gathering Item 145,0,-1,1,ITEM_KIND_MATERIAL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_ITEM146
+gathering-item-146,Gathering Item 146,0,-1,1,ITEM_KIND_MATERIAL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_ITEM147
+gathering-item-147,Gathering Item 147,0,-1,1,ITEM_KIND_MATERIAL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_ITEM148
+gathering-item-148,Gathering Item 148,0,-1,1,ITEM_KIND_MATERIAL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_ITEM149
+gathering-item-149,Gathering Item 149,0,-1,1,ITEM_KIND_MATERIAL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MAT_ITEM150
+craft,Craft,43,10,0,ITEM_KIND_ATTACK,3,2,50,15,,1,,,bomb,,,,-1,,ITEM_EQUIP_FRAME_TYPE_0,2,,,,,,,,,,,,,,,,,,ITEM_MIX_CRAFT
+bomb,Bomb,42,12,0,ITEM_KIND_ATTACK,1,10,50,20,1,,,,bomb,,,,-1,70,ITEM_EQUIP_FRAME_TYPE_1,3,,,,,,,,,,,,,,,,,,ITEM_MIX_FRAMME
+ice-bomb,Ice Bomb,303,18,0,ITEM_KIND_ATTACK,2,18,50,25,,,1,,bomb,,,,-1,85,ITEM_EQUIP_FRAME_TYPE_2,4,,,,,,,,,,,,,,,,,,ITEM_MIX_REFERN
+lightning-bomb,Lightning Bomb,304,24,0,ITEM_KIND_ATTACK,1,23,50,30,,,,1,bomb,,,,-1,90,ITEM_EQUIP_FRAME_TYPE_9,2,,,,,,,,,,,,,,,,,,ITEM_MIX_DONNER_STONE
+uni,Uni,55,17,0,ITEM_KIND_ATTACK,2,28,50,30,,1,,,bomb,,,,-1,70,ITEM_EQUIP_FRAME_TYPE_2,3,,,,,,,,,,,,,,,,,,ITEM_MIX_UNI
+lava-cube,Lava Cube,305,25,0,ITEM_KIND_ATTACK,1,33,50,35,1,,,,magic-tool,,,,-1,95,ITEM_EQUIP_FRAME_TYPE_5,4,,,,,,,,,,,,,,,,,,ITEM_MIX_LAVA_CUBE
+dimension-bomb,Dimension Bomb,306,30,0,ITEM_KIND_ATTACK,1,50,50,30,1,1,,1,bomb,magic-tool,antique,,-1,240,ITEM_EQUIP_FRAME_TYPE_1,1,,,,,,,,,,,,,,,,,,ITEM_MIX_DIMENSION_BOMB
+electrical-discharge-tube,Electrical Discharge Tube,56,35,0,ITEM_KIND_ATTACK,1,48,50,35,,,,1,magic-tool,antique,,,-1,210,ITEM_EQUIP_FRAME_TYPE_7,3,,,,,,,,,,,,,,,,,,ITEM_MIX_DISCHARGE_TUBE
+globe,Globe,57,35,0,ITEM_KIND_ATTACK,2,53,50,30,1,1,,,sundry,,,,-1,,ITEM_EQUIP_FRAME_TYPE_8,5,,,,,,,,,,,,,,,,,,ITEM_MIX_GLOBE
+glass-rose,Glass Rose,58,32,0,ITEM_KIND_ATTACK,1,40,50,30,,,1,1,magic-tool,,,,-1,290,ITEM_EQUIP_FRAME_TYPE_2,3,stera,,,,,,,,,,,,,,,,,ITEM_MIX_GLASS_ROSE
+meteor,Meteor,59,29,0,ITEM_KIND_ATTACK,1,55,50,40,,,,1,bomb,,,,-1,300,ITEM_EQUIP_FRAME_TYPE_3,4,stera,,,,,,,,,,,,,,,,,ITEM_MIX_METEOR
+phantom-ring,Phantom Ring,60,-1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_MIRAGE_RINGS
+talisman-of-ancient-beasts,Talisman of Ancient Beasts,61,30,0,ITEM_KIND_ATTACK,1,72,50,30,1,,,,magic-tool,,,,-1,,ITEM_EQUIP_FRAME_TYPE_6,5,stera,,,,,,,,,,,,,,,,,ITEM_MIX_OLD_BEAST_AMULET
+shepherd-s-flute,Shepherd's Flute,62,30,0,ITEM_KIND_ATTACK,1,50,50,25,,1,,1,sundry,,,,-1,,ITEM_EQUIP_FRAME_TYPE_4,9,stera,,,,,,,,,,,,,,,,,ITEM_MIX_SHEPHERDS_WHISTLE
+weight-stone,Weight Stone,63,27,0,ITEM_KIND_ATTACK,3,37,50,20,1,1,,,sundry,,,,-1,,ITEM_EQUIP_FRAME_TYPE_8,1,,lotte,,,,,,,,,,,,,,,,ITEM_MIX_TSUKEMONOISHI
+barrel,Barrel,64,25,0,ITEM_KIND_ATTACK,3,40,50,40,,1,,,sundry,,,,-1,,ITEM_EQUIP_FRAME_TYPE_3,2,,lotte,,,,,,,,,,,,,,,,ITEM_MIX_BARREL
+pumpkin-doll,Pumpkin Doll,65,40,0,ITEM_KIND_ATTACK,2,64,50,25,,1,1,,magic-tool,,,,-1,170,ITEM_EQUIP_FRAME_TYPE_7,5,,lotte,,,,,,,,,,,,,,,,ITEM_MIX_PUMPKIN_DOLL
+living-trash-can,Living Trash Can,66,10,0,ITEM_KIND_ATTACK,0,69,50,35,,,1,,magic-tool,,,,-1,370,ITEM_EQUIP_FRAME_TYPE_4,4,,lotte,,,,,,,,,,,,,,,,ITEM_MIX_LIVING_GARBAGE_CAN
+white-spirit-orb,White Spirit Orb,67,-1,,ITEM_KIND_ATTACK,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_SOWL_BALL
+flying-board,Flying Board,68,55,0,ITEM_KIND_ATTACK,1,75,50,40,,,,1,magic-tool,,,,-1,400,ITEM_EQUIP_FRAME_TYPE_0,8,,lotte,,,,,,,,,,,,,,,,ITEM_MIX_FLYING_BOARD
+polyphony-poison,Polyphony Poison,307,-1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_KRANKHEIT
+book-of-knowledge,Book of Knowledge,308,-1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_QUADRUPOLE_BOOK
+refuel-pads,Refuel Pads,73,4,0,ITEM_KIND_HEAL,1,2,50,15,,,,1,sundry,,,,-1,,ITEM_EQUIP_FRAME_TYPE_0,1,,,,,,,,,,,,,,,,,,ITEM_MIX_REFUEL_PAT
+healing-salve,Healing Salve,309,7,0,ITEM_KIND_HEAL,1,5,50,15,,,1,,medicine,,,,-1,,ITEM_EQUIP_FRAME_TYPE_4,2,,,,,,,,,,,,,,,,,,ITEM_MIX_HEALING_SALBE
+herbal-soup,Herbal Soup,40,9,0,ITEM_KIND_HEAL,2,3,50,10,,1,1,,food,,,,,,ITEM_EQUIP_FRAME_TYPE_1,2,,,,,,,,,,,,,,,,,,ITEM_MIX_HARB_SOUP
+apple-tart,Apple Tart,38,13,0,ITEM_KIND_HEAL,1,21,50,10,,1,,,food,snack,,,,,ITEM_EQUIP_FRAME_TYPE_3,3,,,,,,,,,,,,,,,,,,ITEM_MIX_APPLE_TART
+refresh-medicine,Refresh Medicine,37,6,0,ITEM_KIND_HEAL,1,5,50,10,,,,1,medicine,,,,,,ITEM_EQUIP_FRAME_TYPE_1,1,,,,,,,,,,,,,,,,,,ITEM_MIX_YOIDOME
+buzzter-nuts,Buzzter Nuts,39,3,0,ITEM_KIND_HEAL,1,4,50,10,,1,,,food,,,,,,ITEM_EQUIP_FRAME_TYPE_0,1,,,,,,,,,,,,,,,,,,ITEM_MIX_BYUSDAR_NUTS
+stellard-medicine,Stellard Medicine,74,10,0,ITEM_KIND_HEAL,2,24,50,25,,,,1,medicine,,,,,,ITEM_EQUIP_FRAME_TYPE_3,2,,,,,,,,,,,,,,,,,,ITEM_MIX_STELADE_INFUSION
+shelbani-bread,Shelbani Bread,69,14,0,ITEM_KIND_HEAL,1,10,50,15,,,1,,food,,,,,,ITEM_EQUIP_FRAME_TYPE_2,3,,,,,,,,,,,,,,,,,,ITEM_MIX_SHELBANI_BREAD
+healing-aroma,Healing Aroma,310,22,0,ITEM_KIND_SUPPORT,3,25,50,25,,,1,1,sundry,medic-ing,,,,,ITEM_EQUIP_FRAME_TYPE_0,2,,,,,,,,,,,,,,,,,,ITEM_MIX_HEALING_AROMA
+stellapearl,Stellapearl,41,20,0,ITEM_KIND_HEAL,1,25,50,30,1,,,,food,snack,,,,,ITEM_EQUIP_FRAME_TYPE_2,2,,,,,,,,,,,,,,,,,,ITEM_MIX_STRAPAR
+medicine-bread,Medicine Bread,311,18,0,ITEM_KIND_HEAL,1,17,50,20,,1,1,,food,,,,,,ITEM_EQUIP_FRAME_TYPE_1,3,,,,,,,,,,,,,,,,,,ITEM_MIX_DRUG_BREAD
+smoked-meat,Smoked Meat,70,24,0,ITEM_KIND_HEAL,1,32,50,30,1,,,,food,,,,,,ITEM_EQUIP_FRAME_TYPE_3,4,,,,,,,,,,,,,,,,,,ITEM_MIX_SMOKE_MEAT
+golden-extract-soup,Golden Extract Soup,71,30,0,ITEM_KIND_HEAL,2,44,50,25,,1,1,,food,,,,,,ITEM_EQUIP_FRAME_TYPE_6,4,,,,,,,,,,,,,,,,,,ITEM_MIX_GOLDEN_SOUP
+media-book,Media Book,76,24,0,ITEM_KIND_HEAL,3,33,50,30,,,1,1,book,,,,-1,190,ITEM_EQUIP_FRAME_TYPE_6,2,,,,,,,,,,,,,,,,,,ITEM_MIX_MEDIA_BOOK
+fruit-ration,Fruit Ration,312,20,0,ITEM_KIND_HEAL,1,39,50,30,1,1,,,food,snack,,,,,ITEM_EQUIP_FRAME_TYPE_7,3,,,,,,,,,,,,,,,,,,ITEM_MIX_FRUIT_RATION
+slag-soup,Slag Soup,179,7,0,ITEM_KIND_SUPPORT,2,31,50,25,1,,1,,food,,,,,,ITEM_EQUIP_FRAME_TYPE_4,3,,,,,,,,,,,,,,,,,,ITEM_MIX_SLUG_SOUP
+ritual-powder,Ritual Powder,313,21,0,ITEM_KIND_SUPPORT,1,33,50,20,,1,1,1,sundry,medicine,,,-1,,ITEM_EQUIP_FRAME_TYPE_8,2,,,,,,,,,,,,,,,,,,ITEM_MIX_PROTECTION_POWDER
+sp-medicine,SP Medicine,314,22,0,ITEM_KIND_SUPPORT,1,58,50,25,,,1,1,medicine,,,,-1,,ITEM_EQUIP_FRAME_TYPE_1,4,,,,,,,,,,,,,,,,,,ITEM_MIX_DRUG_BOTTLED
+awakening-medicine,Awakening Medicine,315,18,0,ITEM_KIND_SUPPORT,2,53,50,30,,,1,1,sundry,medic-ing,,,-1,,ITEM_EQUIP_FRAME_TYPE_4,2,,,,,,,,,,,,,,,,,,ITEM_MIX_EPIPHANY_EYE_DROPS
+dragon-cup,Dragon Cup,75,15,0,ITEM_KIND_HEAL,1,45,50,25,,,1,1,magic-tool,,,,-1,,ITEM_EQUIP_FRAME_TYPE_8,3,,,,,,,,,,,,,,,,,,ITEM_MIX_DRAGON_CUP
+slag-essence,Slag Essence,316,3,0,ITEM_KIND_SUPPORT,3,26,50,30,1,1,,,medicine,,,,,,ITEM_EQUIP_FRAME_TYPE_2,4,,,,,,,,,,,,,,,,,,ITEM_MIX_SLUG_ESSENCE
+traveler-s-ration,Traveler's Ration,317,20,0,ITEM_KIND_HEAL,1,46,50,25,1,1,,,food,,,,,,ITEM_EQUIP_FRAME_TYPE_0,3,,,,,,,,,,,,,,,,,,ITEM_MIX_DRUG_BREAD_S
+goddess-shield,Goddess Shield,318,19,0,ITEM_KIND_HEAL,1,59,50,25,,1,1,1,magic-tool,,,,-1,,ITEM_EQUIP_FRAME_TYPE_7,4,,,,,,,,,,,,,,,,,,ITEM_MIX_GODDESS_SHIELD
+healthy-ration,Healthy Ration,319,25,0,ITEM_KIND_HEAL,2,47,50,25,1,1,,1,food,,,,,,ITEM_EQUIP_FRAME_TYPE_6,3,,,,,,,,,,,,,,,,,,ITEM_MIX_FRUIT_RATION_S
+time-watch,Time Watch,320,26,0,ITEM_KIND_HEAL,1,63,50,15,1,1,1,1,magic-tool,antique,,,-1,270,ITEM_EQUIP_FRAME_TYPE_9,1,,,,,,,,,,,,,,,,,,ITEM_MIX_MANAGE_TIME_WATCH
+millionaire-s-full-course,Millionaire's Full Course,72,55,0,ITEM_KIND_HEAL,3,60,50,35,1,1,1,,food,,,,,,ITEM_EQUIP_FRAME_TYPE_5,7,,,,,,,,,,,,,,,,,,ITEM_MIX_FULL_COURSE
+angel-powder,Angel Powder,321,35,0,ITEM_KIND_SUPPORT,2,52,50,25,1,,1,1,sundry,medic-ing,,,-1,,ITEM_EQUIP_FRAME_TYPE_1,2,,,,,,,,,,,,,,,,,,ITEM_MIX_DEVINE_POWDER
+medicine-of-the-four-beasts,Medicine of the Four Beasts,180,40,0,ITEM_KIND_SUPPORT,2,61,50,20,1,1,1,1,medicine,,,,,,ITEM_EQUIP_FRAME_TYPE_8,4,,,,,,,,,,,,,,,,,,ITEM_MIX_FOUR_BEASTS_PROTECTION
+dragon-s-secret,Dragon's Secret,322,40,0,ITEM_KIND_SUPPORT,2,36,50,40,1,1,,,medicine,,,,,,ITEM_EQUIP_FRAME_TYPE_7,3,,,,,,,,,,,,,,,,,,ITEM_MIX_DRAGON_NOSTRUM
+elixir,Elixir,323,80,0,ITEM_KIND_HEAL,4,74,50,25,1,1,1,1,medicine,,,,,,ITEM_EQUIP_FRAME_TYPE_0,6,,,,,,,,,,,,,,,,,,ITEM_MIX_ELIXIR
+fruit-tart,Fruit Tart,399,15,0,ITEM_KIND_HEAL,1,30,50,10,,1,,,food,snack,,,,,ITEM_EQUIP_FRAME_TYPE_5,3,,,,,,,,,,,,,,,,,,ITEM_MIX_ITEM52
+plant-fertilizer,Plant Fertilizer,49,10,0,ITEM_KIND_FIELD,1,27,50,45,,,1,,adventure,liquid,,,,,ITEM_EQUIP_FRAME_TYPE_1,3,,,,,,,,,,,,,,,,,,ITEM_MIX_NUTRIENT
+demon-warding-charm,Demon Warding Charm,79,15,0,ITEM_KIND_FIELD,1,45,50,30,,1,,1,adventure,cloth,,,,,ITEM_EQUIP_FRAME_TYPE_9,4,,,,,,,,,,,,,,,,,,ITEM_MIX_GUARD_AMULET
+dowsing-rod,Dowsing Rod,77,20,0,ITEM_KIND_FIELD,2,47,50,30,1,,,1,adventure,ore,,,,140,ITEM_EQUIP_FRAME_TYPE_5,3,,,,,,,,,,,,,,,,,,ITEM_MIX_PENDULUM
+mysterious-monocle,Mysterious Monocle,78,30,0,ITEM_KIND_FIELD,2,55,50,30,,,1,1,adventure,antique,,,,120,ITEM_EQUIP_FRAME_TYPE_3,3,,,,,,,,,,,,,,,,,,ITEM_MIX_MONOCLE
+travel-gate,Travel Gate,324,35,0,ITEM_KIND_FIELD,4,60,50,20,1,1,1,1,adventure,mystery,,,,320,ITEM_EQUIP_FRAME_TYPE_7,5,,,,,,,,,,,,,,,,,,ITEM_MIX_SKY_SPIRIT_SIGNPOST
+handmade-bait,Handmade Bait,182,2,0,ITEM_KIND_FIELD,0,24,50,20,,1,,,adventure,smelly,,,,,ITEM_EQUIP_FRAME_TYPE_0,1,,,,,,,,,,,,,,,,,,ITEM_MIX_HANDMADE_NERIESA
+shelbani-flour,Shelbani Flour,20,2,0,ITEM_KIND_MIX,2,3,50,15,,1,,,grain,gunpowder,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_SHELBANI_POWDER
+dried-herbs,Dried Herbs,25,3,0,ITEM_KIND_MIX,2,5,50,15,,,,1,fuel,aroma,seasoning,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_DRY_HERB
+plant-oil,Plant Oil,50,2,0,ITEM_KIND_MIX,2,4,50,20,1,,,,liquid,oil,fuel,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_VEGETABLE_OIL
+abrasive,Abrasive,51,4,0,ITEM_KIND_MIX,2,6,50,15,,1,,,sundry,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_ABRASIVE
+handspun-rabbit-yarn,Handspun Rabbit Yarn,82,10,0,ITEM_KIND_MIX,2,14,50,10,,,,1,animal,thread,,,-1,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_HANDMAID_RABBIT_WOOL
+supplement-red,Supplement - Red,325,1,0,ITEM_KIND_MIX,1,1,50,15,1,,,,supplement,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_ITEM_MIX_RED_NEUTLIZER
+supplement-blue,Supplement - Blue,326,2,0,ITEM_KIND_MIX,1,3,50,15,,,1,,supplement,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_ITEM_MIX_BLUE_NEUTLIZER
+supplement-green,Supplement - Green,327,3,0,ITEM_KIND_MIX,1,5,50,15,,,,1,supplement,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_ITEM_MIX_GREEN_NEUTLIZER
+supplement-yellow,Supplement - Yellow,328,4,0,ITEM_KIND_MIX,1,7,50,15,,1,,,supplement,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_ITEM_MIX_YELLOW_NEUTLIZER
+supplement-white,Supplement - White,329,10,0,ITEM_KIND_MIX,2,26,50,20,1,,,1,supplement,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_ITEM_MIX_WHITE_NEUTLIZER
+supplement-black,Supplement - Black,330,10,0,ITEM_KIND_MIX,2,26,50,20,,1,1,,supplement,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_ITEM_MIX_BLACK_NEUTLIZER
+supplement-rainbow,Supplement - Rainbow,331,25,0,ITEM_KIND_MIX,3,44,50,20,1,1,1,1,supplement,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_ITEM_MIX_RAINBOW_NEUTLIZER
+broken-item,Broken Item,114,1,0,ITEM_KIND_MATERIAL,0,0,50,5,,1,,,synthesis,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_BROKEN_ITEM
+handmade-jam,Handmade Jam,332,8,0,ITEM_KIND_MIX,2,16,50,20,,,1,,seasoning,food,aroma,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_HANDMADE_JAM
+honey,Honey,333,5,0,ITEM_KIND_MIX,2,13,50,20,,1,,,liquid,seasoning,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_ITEM_MIX_HONEY
+plant-syrup,Plant Syrup,334,5,0,ITEM_KIND_MIX,1,12,50,10,,1,1,,liquid,seasoning,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_PLANT_SYRUP
+leather,Leather,48,11,0,ITEM_KIND_MIX,2,8,50,15,1,1,,,pelt,cloth,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_LEATHER
+zettel,Zettel,44,7,0,ITEM_KIND_MIX,2,13,50,20,,,,1,paper,fuel,,,-1,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_ZETTEL
+palma-board,Palma Board,45,8,0,ITEM_KIND_MIX,1,12,50,20,,1,,,sundry,lumber,fuel,,-1,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_PARMA_BOARD
+powdered-glass,Powdered Glass,335,9,0,ITEM_KIND_MIX,1,17,50,10,1,1,,,synthesis,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_GLASS_POWDER
+glass-tube,Glass Tube,117,13,0,ITEM_KIND_MIX,2,20,50,15,1,1,,,synthesis,,,,-1,45,,,,,,,,,,,,,,,,,,,,ITEM_MIX_GLASS_BAR
+crystal-ball,Crystal Ball,336,14,0,ITEM_KIND_MIX,1,30,50,20,,,1,1,jewel,mystery,,,-1,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_CRYSTAL_BALL
+medical-solution,Medical Solution,337,4,0,ITEM_KIND_MIX,2,42,50,15,1,1,1,1,medicine,liquid,mystery,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_MEDICA_SOLUTION
+stellard-fabric,Stellard Fabric,121,6,0,ITEM_KIND_MIX,3,16,50,25,,1,,1,cloth,,,,-1,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_STELADE_CLOTH
+fire-lord-s-charcoal,Fire Lord's Charcoal,111,12,0,ITEM_KIND_MIX,1,23,50,30,1,,,,fuel,gunpowder,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_CHARCOAL
+iron-clay,Iron Clay,338,14,0,ITEM_KIND_MIX,1,25,50,30,,1,,,metal,clay,poison,,-1,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_IRON_CLAY
+burning-gas,Burning Gas,339,4,0,ITEM_KIND_MIX,2,22,50,30,1,,,1,gas,gunpowder,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_BURNED_AIR
+black-powder,Black Powder,340,24,0,ITEM_KIND_MIX,1,24,50,50,1,,,,gunpowder,smelly,seasoning,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_BLACK_POWDER
+frosty-crystal,Frosty Crystal,341,12,0,ITEM_KIND_MIX,1,27,50,20,,,1,,liquid,jewel,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_MIST_CRYSTAL
+water-crystal,Water Crystal,120,16,0,ITEM_KIND_MIX,2,27,50,20,,,1,1,jewel,mystery,,,-1,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_WATER_CRYSTAL
+electric-orb,Electric Orb,127,13,0,ITEM_KIND_MIX,2,15,50,15,,1,,1,jewel,,,,-1,50,,,,,,,,,,,,,,,,,,,,ITEM_MIX_STORAGE_OF_ELECTICITY_BALL
+distilled-water,Distilled Water,342,20,0,ITEM_KIND_MIX,3,25,50,20,,,1,,water,liquid,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_DISTILLED_WATER
+super-pure-water,Super Pure Water,18,35,0,ITEM_KIND_MIX,4,45,50,40,,,1,,water,liquid,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_ULTRA_PURE_WATER
+unbreakable-glass,Unbreakable Glass,130,6,0,ITEM_KIND_MIX,1,40,50,15,1,,1,,natural,gunpowder,ancient-power,,-1,25,,,,,,,,,,,,,,,,,,,,ITEM_MIX_NON_BROKEN_GLASS
+mysterious-cloth,Mysterious Cloth,122,20,0,ITEM_KIND_MIX,2,35,50,30,,1,,1,cloth,synthesis,mystery,,-1,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_MYSTIC_CLOTH
+gravicrystal,Gravicrystal,33,7,0,ITEM_KIND_MIX,1,18,50,20,,1,,1,synthesis,mystery,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_GRAVI_CRYSTAL
+precious-stone,Precious Stone,343,40,0,ITEM_KIND_MIX,2,32,50,25,1,1,,1,jewel,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_NOBLE_STONE
+twin-color-corundum,Twin Color Corundum,344,33,0,ITEM_KIND_MIX,1,36,50,20,1,,1,,synthesis,jewel,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_NOBLE_STONE_02
+polarized-gem,Polarized Gem,345,26,0,ITEM_KIND_MIX,1,36,50,20,,1,,1,synthesis,jewel,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_NOBLE_STONE_03
+comet-crest-stone,Comet Crest Stone,346,7,0,ITEM_KIND_MIX,3,38,50,20,1,1,1,1,synthesis,jewel,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_SYAKKIMONSEKI
+holinic,Holinic,30,10,0,ITEM_KIND_MIX,2,22,50,20,1,,,,metal,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_HLINIK
+dark-iron,Dark Iron,34,15,0,ITEM_KIND_MIX,1,26,50,20,1,,,,sundry,metal,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_DARK_IRON
+algemein-plywood,Algemein Plywood,347,12,0,ITEM_KIND_MIX,2,18,50,25,,1,,,sundry,lumber,,,-1,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_ALLGEMEIN_BOARD
+ziegel-nugget,Ziegel Nugget,348,6,0,ITEM_KIND_MIX,2,35,50,30,1,1,,,metal,ore,,,-1,90,,,,,,,,,,,,,,,,,,,,ITEM_MIX_SIEGEL_NUGGET
+cole-medapaid,Cole Medapaid,29,36,0,ITEM_KIND_MIX,3,38,50,30,1,,,,metal,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_KOHL_MEDAPYED
+dark-steel-plate,Dark Steel Plate,47,30,0,ITEM_KIND_MIX,1,35,50,40,1,,,,sundry,metal,,,-1,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_DARK_IRON_BOARD
+holinic-steel-plate,Holinic Steel Plate,46,20,0,ITEM_KIND_MIX,2,25,50,35,1,,,,metal,,,,-1,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_HLINIK_BOARD
+aroma-materia,Aroma Materia,349,40,0,ITEM_KIND_MIX,3,54,50,15,1,1,1,1,aroma,ore,jewel,synthesis,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_AROMAMATERIA
+sun-flower,Sun Flower,350,100,0,ITEM_KIND_MIX,4,70,50,30,1,1,1,1,jewel,metal,ancient-power,elixir,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_SUN_FLOWER
+floater-unit,Floater Unit,36,70,0,ITEM_KIND_MIX,0,23,50,25,1,1,1,1,ancient-power,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_FLOATER_UNIT
+ingot,Ingot,374,5,0,ITEM_KIND_MIX,1,4,50,15,1,,,,ingot,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_INGOT
+holinicait,Holinicait,375,8,0,ITEM_KIND_MIX,1,15,50,20,1,,,,ingot,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_INGOT_HLINIKITE
+shuvea-metal,Shuvea Metal,376,11,0,ITEM_KIND_MIX,2,20,50,15,1,1,,,ingot,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_INGOT_SCHVEAMETAL
+alto-metal,Alto Metal,377,14,0,ITEM_KIND_MIX,2,28,50,15,1,1,,,ingot,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_INGOT_OLD_METAL
+meteonite,Meteonite,378,17,0,ITEM_KIND_MIX,3,40,50,15,1,1,,1,ingot,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_INGOT_METEORNITE
+halmolium,Halmolium,379,20,0,ITEM_KIND_MIX,2,45,50,10,1,1,1,1,ingot,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_INGOT_HARMOLIUM
+cloth,Cloth,380,5,0,ITEM_KIND_MIX,1,4,50,10,,,,1,fabric,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_CLOTH
+mofcott,Mofcott,381,8,0,ITEM_KIND_MIX,1,12,50,10,,,1,1,fabric,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_CLOTH_MOFCOT
+silkis-feather,Silkis Feather,382,11,0,ITEM_KIND_MIX,2,16,50,30,,,,1,fabric,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_CLOTH_SILKES
+alto-cloth,Alto Cloth,383,14,0,ITEM_KIND_MIX,2,23,50,15,,1,,1,fabric,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_CLOTH_OLD_CLOTH
+scale-cloth,Scale Cloth,384,17,0,ITEM_KIND_MIX,3,30,50,20,1,,,1,fabric,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_CLOTH_SCALE_CLOTH
+velvetis,Velvetis,385,20,0,ITEM_KIND_MIX,2,40,50,10,1,1,1,1,fabric,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_CLOTH_VELVETIS
+lumber,Lumber,386,5,0,ITEM_KIND_MIX,1,4,50,5,,1,1,,wood,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_TIMBER
+palma-wood,Palma Wood,387,8,0,ITEM_KIND_MIX,1,15,50,10,,1,1,,wood,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_TIMBER_PARMA_WOOD
+mixed-wood,Mixed Wood,388,11,0,ITEM_KIND_MIX,2,20,50,15,,1,1,,wood,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_TIMBER_MIX_WOOD
+alto-wood,Alto Wood,389,14,0,ITEM_KIND_MIX,2,28,50,15,,1,1,,wood,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_TIMBER_OLD_WOOD
+mystix,Mystix,390,17,0,ITEM_KIND_MIX,3,40,50,10,,1,1,1,wood,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_TIMBER_MYSTICS
+yggdras,Yggdras,391,20,0,ITEM_KIND_MIX,2,45,50,10,1,1,1,1,wood,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_TIMBER_YGGDRASIL
+stone-coin,Stone Coin,438,50,0,ITEM_KIND_ACCESSORY,0,70,50,25,1,1,1,1,accessory,,,,,,,,stera,lotte,kortes,wilbell,jurie,miruca,keithgriff,homura,escha,solle,logy,ayesha,7,7,7,7,7,ITEM_MIX_ITEM71
+heart-of-fire,Heart of Fire,439,50,0,ITEM_KIND_ACCESSORY,0,70,50,25,1,1,1,1,accessory,,,,,,,,stera,lotte,kortes,wilbell,jurie,miruca,keithgriff,homura,escha,solle,logy,ayesha,40,,,,,ITEM_MIX_ITEM72
+planet-sphere,Planet Sphere,440,50,0,ITEM_KIND_ACCESSORY,0,80,50,25,1,1,1,1,accessory,,,,,,,,stera,lotte,kortes,wilbell,jurie,miruca,keithgriff,homura,escha,solle,logy,ayesha,,,30,,,ITEM_MIX_ITEM73
+chronicle-shield,Chronicle Shield,441,50,0,ITEM_KIND_ACCESSORY,0,80,50,25,1,1,1,1,accessory,,,,,,,,stera,lotte,kortes,wilbell,jurie,miruca,keithgriff,homura,escha,solle,logy,ayesha,,,,30,,ITEM_MIX_ITEM74
+escape-jewel,Escape Jewel,442,50,0,ITEM_KIND_ACCESSORY,0,90,50,25,1,1,1,1,accessory,,,,,,,,stera,lotte,kortes,wilbell,jurie,miruca,keithgriff,homura,escha,solle,logy,ayesha,,,,,30,ITEM_MIX_ITEM75
+thunder-outfit,Thunder Outfit,443,50,0,ITEM_KIND_ACCESSORY,0,90,50,25,1,1,1,1,accessory,,,,,,,,stera,lotte,kortes,wilbell,jurie,miruca,keithgriff,homura,escha,solle,logy,ayesha,,,10,10,10,ITEM_MIX_ITEM76
+divine-soul,Divine Soul,444,50,0,ITEM_KIND_ACCESSORY,0,90,50,25,1,1,1,1,accessory,,,,,,,,stera,lotte,kortes,wilbell,jurie,miruca,keithgriff,homura,escha,solle,logy,ayesha,,40,,,,ITEM_MIX_ITEM77
+synthesis-item-78,Synthesis Item 78,0,-1,0,ITEM_KIND_MIX,,,50,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_ITEM78
+synthesis-item-79,Synthesis Item 79,0,-1,0,ITEM_KIND_MIX,,,50,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_ITEM79
+synthesis-item-80,Synthesis Item 80,0,-1,0,ITEM_KIND_MIX,,,50,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_ITEM80
+synthesis-item-81,Synthesis Item 81,0,-1,0,ITEM_KIND_MIX,,,50,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_ITEM81
+synthesis-item-82,Synthesis Item 82,0,-1,0,ITEM_KIND_MIX,,,50,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_ITEM82
+synthesis-item-83,Synthesis Item 83,0,-1,0,ITEM_KIND_MIX,,,50,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_ITEM83
+synthesis-item-84,Synthesis Item 84,0,-1,0,ITEM_KIND_MIX,,,50,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_ITEM84
+synthesis-item-85,Synthesis Item 85,0,-1,0,ITEM_KIND_MIX,,,50,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_ITEM85
+synthesis-item-86,Synthesis Item 86,0,-1,0,ITEM_KIND_MIX,,,50,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_ITEM86
+synthesis-item-87,Synthesis Item 87,0,-1,0,ITEM_KIND_MIX,,,50,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_ITEM87
+synthesis-item-88,Synthesis Item 88,0,-1,0,ITEM_KIND_MIX,,,50,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_ITEM88
+synthesis-item-89,Synthesis Item 89,0,-1,0,ITEM_KIND_MIX,,,50,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_MIX_ITEM89
+ship-clan-s-bell,Ship Clan's Bell,131,10,0,ITEM_KIND_WEAPON,1,1,50,10,1,,,,weapon-bell,,,,,,,,stera,,,,,,,,,,,,,,13,,,ITEM_PC_00_WEP_00
+resonance-chime,Resonance Chime,132,20,0,ITEM_KIND_WEAPON,2,9,50,20,,1,,,weapon-bell,metal,,,,,,,stera,,,,,,,,,,,,,,25,,,ITEM_PC_00_WEP_01
+white-winged-bell,White Winged Bell,133,30,0,ITEM_KIND_WEAPON,2,17,50,20,,,1,1,weapon-bell,metal,,,,,,,stera,,,,,,,,,,,,,,38,,,ITEM_PC_00_WEP_02
+sea-alchemist-s-bell,Sea Alchemist's Bell,134,40,0,ITEM_KIND_WEAPON,1,25,50,25,1,,1,1,weapon-bell,metal,,,,,,,stera,,,,,,,,,,,,,,50,,,ITEM_PC_00_WEP_03
+worn-out-broom,Worn Out Broom,430,10,0,ITEM_KIND_WEAPON,0,0,50,10,,1,,,weapon-broom,lumber,,,,,,,,lotte,,,,,,,,,,,,,8,,,ITEM_PC_01_WEP_00
+convenient-broom,Convenient Broom,136,20,0,ITEM_KIND_WEAPON,0,1,50,10,,1,,,weapon-broom,lumber,,,,,,,,lotte,,,,,,,,,,,,,17,,,ITEM_PC_01_WEP_01
+stylish-broom,Stylish Broom,137,30,0,ITEM_KIND_WEAPON,1,9,50,10,,1,,1,weapon-broom,lumber,,,,,,,,lotte,,,,,,,,,,,,,29,,,ITEM_PC_01_WEP_02
+magia-sumonitora,Magia Sumonitora,135,40,0,ITEM_KIND_WEAPON,3,20,50,25,1,,,1,weapon-broom,lumber,,,,,,,,lotte,,,,,,,,,,,,,46,,,ITEM_PC_01_WEP_04
+alchemist-s-broom,Alchemist's Broom,138,50,0,ITEM_KIND_WEAPON,2,25,50,20,1,1,1,1,weapon-broom,lumber,,,,,,,,lotte,,,,,,,,,,,,,52,,,ITEM_PC_01_WEP_03
+sea-clan-s-charm,Sea Clan's Charm,139,10,0,ITEM_KIND_WEAPON,2,2,50,10,,1,1,,weapon-talisman,,,,,,,,,,kortes,,,,,,,,,,,,15,,,ITEM_PC_02_WEP_00
+elemental-charm,Elemental Charm,140,20,0,ITEM_KIND_WEAPON,2,8,50,5,1,1,1,1,weapon-talisman,accessory,,,,,,,,,kortes,,,,,,,,,,,,29,,,ITEM_PC_02_WEP_01
+lunic-charm,Lunic Charm,141,30,0,ITEM_KIND_WEAPON,2,15,50,25,1,,,,weapon-talisman,metal,,,,,,,,,kortes,,,,,,,,,,,,44,,,ITEM_PC_02_WEP_02
+dragon-scale-charm,Dragon Scale Charm,142,40,0,ITEM_KIND_WEAPON,2,22,50,20,1,1,,1,weapon-talisman,dragon-material,,,,,,,,,kortes,,,,,,,,,,,,58,,,ITEM_PC_02_WEP_03
+magician-s-ring,Magician's Ring,143,10,0,ITEM_KIND_WEAPON,1,9,50,10,1,,,1,weapon-ring,,,,,,,,,,,wilbell,,,,,,,,,,,16,,,ITEM_PC_03_WEP_00
+sword-manipulation-ring,Sword Manipulation Ring,144,20,0,ITEM_KIND_WEAPON,2,14,50,15,1,,,1,weapon-ring,metal,,,,,,,,,,wilbell,,,,,,,,,,,31,,,ITEM_PC_03_WEP_01
+demonkin-ring,Demonkin Ring,145,30,0,ITEM_KIND_WEAPON,3,20,50,20,1,,1,1,weapon-ring,metal,,,,,,,,,,wilbell,,,,,,,,,,,47,,,ITEM_PC_03_WEP_02
+orbis-spiritis,Orbis Spiritis,146,40,0,ITEM_KIND_WEAPON,4,27,50,20,1,1,1,1,weapon-ring,metal,,,,,,,,,,wilbell,,,,,,,,,,,62,,,ITEM_PC_03_WEP_03
+crystal-twin-swords,Crystal Twin Swords,147,10,0,ITEM_KIND_WEAPON,1,3,50,15,,1,,1,weapon-twin-sword,,,,,,,,,,,,jurie,,,,,,,,,,19,,,ITEM_PC_04_WEP_00
+silver-twin-swords,Silver Twin Swords,149,20,0,ITEM_KIND_WEAPON,1,8,50,15,1,,,1,weapon-twin-sword,metal,,,,,,,,,,,jurie,,,,,,,,,,37,,,ITEM_PC_04_WEP_01
+bloody-claws,Bloody Claws,148,30,0,ITEM_KIND_WEAPON,1,15,50,20,1,,,1,weapon-twin-sword,metal,,,,,,,,,,,jurie,,,,,,,,,,56,,,ITEM_PC_04_WEP_02
+air-foecutters,Air Foecutters,150,40,0,ITEM_KIND_WEAPON,3,22,50,25,,1,1,1,weapon-twin-sword,metal,,,,,,,,,,,jurie,,,,,,,,,,74,,,ITEM_PC_04_WEP_03
+flame-bunker,Flame Bunker,151,10,0,ITEM_KIND_WEAPON,2,3,50,10,1,,,,weapon-pile-driver,,,,,,,,,,,,,miruca,,,,,,,,,15,,,ITEM_PC_05_WEP_00
+armored-bunker,Armored Bunker,152,20,0,ITEM_KIND_WEAPON,1,10,50,15,1,1,,,weapon-pile-driver,gunpowder,,,,,,,,,,,,miruca,,,,,,,,,29,,,ITEM_PC_05_WEP_01
+ancient-heat-bunker,Ancient Heat Bunker,153,30,0,ITEM_KIND_WEAPON,2,20,50,15,1,,,1,weapon-pile-driver,gunpowder,antique,ancient-power,,,,,,,,,,miruca,,,,,,,,,44,,,ITEM_PC_05_WEP_02
+chronicle-bunker,Chronicle Bunker,154,40,0,ITEM_KIND_WEAPON,2,25,50,20,1,1,,1,weapon-pile-driver,gunpowder,ancient-power,,,,,,,,,,,miruca,,,,,,,,,58,,,ITEM_PC_05_WEP_03
+solis-gem,Solis Gem,159,10,0,ITEM_KIND_WEAPON,1,18,50,15,1,,,,weapon-ritual,mystery,ancient-power,,,,,,,,,,,,keithgriff,,,,,,,,45,,,ITEM_PC_06_WEP_00
+ignis-gem,Ignis Gem,160,20,0,ITEM_KIND_WEAPON,1,21,50,25,1,,,,weapon-ritual,mystery,ancient-power,,,,,,,,,,,,keithgriff,,,,,,,,54,,,ITEM_PC_06_WEP_01
+zodiac-gem,Zodiac Gem,161,30,0,ITEM_KIND_WEAPON,2,24,50,15,1,1,1,1,weapon-ritual,mystery,ancient-power,,,,,,,,,,,,keithgriff,,,,,,,,63,,,ITEM_PC_06_WEP_02
+diabolos-gem,Diabolos Gem,162,40,0,ITEM_KIND_WEAPON,3,28,50,25,1,1,1,1,weapon-ritual,mystery,ancient-power,,,,,,,,,,,,keithgriff,,,,,,,,72,,,ITEM_PC_06_WEP_03
+hayate,Hayate,155,10,0,ITEM_KIND_WEAPON,1,2,50,15,,,,1,weapon-longsword,,,,,,,,,,,,,,,homura,,,,,,,16,,,ITEM_PC_07_WEP_00
+demon-ore-sword,Demon Ore Sword,156,20,0,ITEM_KIND_WEAPON,3,10,50,20,1,,,,weapon-longsword,metal,,,,,,,,,,,,,,homura,,,,,,,31,,,ITEM_PC_07_WEP_01
+mythical-beast-sword,Mythical Beast Sword,157,30,0,ITEM_KIND_WEAPON,1,18,50,20,,,1,1,weapon-longsword,metal,,,,,,,,,,,,,,homura,,,,,,,47,,,ITEM_PC_07_WEP_02
+meteorite-sword,Meteorite Sword,158,40,0,ITEM_KIND_WEAPON,2,25,50,30,1,1,,1,weapon-longsword,metal,,,,,,,,,,,,,,homura,,,,,,,62,,,ITEM_PC_07_WEP_03
+sky-alchemy-staff,Sky Alchemy Staff,431,10,0,ITEM_KIND_WEAPON,1,5,50,10,,1,,1,weapon-staff,lumber,,,,,,,,,,,,,,,escha,,,,,,13,,,ITEM_PC_08_WEP_00
+golden-wing-staff,Golden Wing Staff,433,20,0,ITEM_KIND_WEAPON,2,11,50,15,,,1,1,weapon-staff,lumber,,,,,,,,,,,,,,,escha,,,,,,25,,,ITEM_PC_08_WEP_01
+golden-blue-staff,Golden Blue Staff,432,30,0,ITEM_KIND_WEAPON,3,20,50,20,1,,1,1,weapon-staff,lumber,,,,,,,,,,,,,,,escha,,,,,,38,,,ITEM_PC_08_WEP_02
+lifetree-staff,Lifetree Staff,434,40,0,ITEM_KIND_WEAPON,4,30,50,20,1,1,1,1,weapon-staff,lumber,,,,,,,,,,,,,,,escha,,,,,,50,,,ITEM_PC_08_WEP_03
+management-board,Management Board,435,10,0,ITEM_KIND_WEAPON,1,6,50,15,,,1,1,weapon-board,paper,,,,,,,,,,,,,,,,solle,,,,,0,,,ITEM_PC_09_WEP_00
+plan-board,Plan Board,436,20,0,ITEM_KIND_WEAPON,1,13,50,15,,1,,1,weapon-board,paper,,,,,,,,,,,,,,,,solle,,,,,0,,,ITEM_PC_09_WEP_01
+operation-plan-board,Operation Plan Board,437,30,0,ITEM_KIND_WEAPON,2,22,50,20,,1,1,1,weapon-board,paper,,,,,,,,,,,,,,,,solle,,,,,25,,,ITEM_PC_09_WEP_02
+dlc-2-weapon-4,DLC_2_Weapon 4,0,-1,0,ITEM_KIND_WEAPON,2,22,50,20,,1,1,1,weapon-board,paper,,,,,,,,,,,,,,,,solle,,,,,0,,,ITEM_PC_09_WEP_03
+cotton-shirt,Cotton Shirt,351,5,0,ITEM_KIND_ARMOR,0,1,50,15,,1,,,armor-clothes,cloth,,,,,,,stera,lotte,kortes,wilbell,jurie,miruca,keithgriff,homura,escha,solle,logy,ayesha,,,,5,,ITEM_ARM_COTTON_SHIRT
+thick-shirt,Thick Shirt,352,10,0,ITEM_KIND_ARMOR,1,2,50,15,,1,,,armor-clothes,cloth,,,,,,,stera,lotte,kortes,wilbell,jurie,miruca,keithgriff,homura,escha,solle,logy,ayesha,,,,8,,ITEM_ARM_HEAVY_SHIRT
+high-collar-shirt,High Collar Shirt,353,15,0,ITEM_KIND_ARMOR,1,6,50,10,1,,,1,armor-clothes,cloth,,,,,,,stera,lotte,kortes,wilbell,jurie,miruca,keithgriff,homura,escha,solle,logy,ayesha,,,5,12,5,ITEM_ARM_HIGHCOLOR_SHIRT
+herbal-shirt,Herbal Shirt,163,20,0,ITEM_KIND_ARMOR,3,12,50,15,,1,1,,armor-clothes,medicine,,,,,,,stera,lotte,kortes,wilbell,jurie,miruca,keithgriff,homura,escha,solle,logy,ayesha,,10,,20,,ITEM_ARM_HERB_SHIRT
+leather-shirt,Leather Shirt,354,25,0,ITEM_KIND_ARMOR,1,9,50,15,1,1,,,armor-clothes,pelt,,,,,,,stera,lotte,kortes,wilbell,jurie,miruca,keithgriff,homura,escha,solle,logy,ayesha,,,,25,,ITEM_ARM_LEATHER_SHIRT
+fur-shirt,Fur Shirt,355,30,0,ITEM_KIND_ARMOR,1,10,50,15,1,,,1,armor-clothes,pelt,,,,,,,stera,lotte,kortes,wilbell,jurie,miruca,keithgriff,homura,escha,solle,logy,ayesha,15,,,30,,ITEM_ARM_FUR_SHIRT
+combat-shirt,Combat Shirt,356,35,0,ITEM_KIND_ARMOR,0,14,50,30,1,1,,,armor-clothes,cloth,,,,,,,stera,lotte,kortes,wilbell,jurie,miruca,keithgriff,homura,escha,solle,logy,ayesha,,,10,35,,ITEM_ARM_COMBAT_SHIRT
+riveted-shirt,Riveted Shirt,164,40,0,ITEM_KIND_ARMOR,1,15,50,30,1,,1,,armor-clothes,cloth,,,,,,,stera,lotte,kortes,wilbell,jurie,miruca,keithgriff,homura,escha,solle,logy,ayesha,,,,40,10,ITEM_ARM_STUDDED_SHIRT
+silver-threaded-shirt,Silver Threaded Shirt,165,45,0,ITEM_KIND_ARMOR,2,20,50,50,,,,1,armor-clothes,cloth,,,,,,,stera,lotte,kortes,wilbell,jurie,miruca,keithgriff,homura,escha,solle,logy,ayesha,15,15,,45,,ITEM_ARM_SILVER_SHIRT
+divine-shirt,Divine Shirt,166,50,0,ITEM_KIND_ARMOR,2,22,50,15,1,1,1,1,armor-clothes,cloth,,,,,,,stera,lotte,kortes,wilbell,jurie,miruca,keithgriff,homura,escha,solle,logy,ayesha,,30,10,50,15,ITEM_ARM_MYSTIC_SHIRT
+chain-armor,Chain Armor,167,10,0,ITEM_KIND_ARMOR,1,4,50,20,1,1,,,armor-heavy-armor,metal,,,,,,,,,kortes,,,miruca,,homura,,,,,,,,15,,ITEM_ARM_CHAIN_ARMOR
+bone-plate,Bone Plate,357,15,0,ITEM_KIND_ARMOR,1,7,50,20,,1,,,armor-heavy-armor,animal,,,,,,,,,kortes,,,miruca,,homura,,,,,,,5,22,,ITEM_ARM_BONE_PLATE
+holinic-full-metal,Holinic Full Metal,168,20,0,ITEM_KIND_ARMOR,2,10,50,40,1,,,,armor-heavy-armor,metal,,,,,,,,,kortes,,,miruca,,homura,,,,,,,,30,5,ITEM_ARM_HLINIK_FULL_MAIL
+scale-plate,Scale Plate,358,25,0,ITEM_KIND_ARMOR,1,14,50,45,,,1,,armor-heavy-armor,animal,,,,,,,,,kortes,,,miruca,,homura,,,,,,,,37,,ITEM_ARM_SCALE_PLATE
+splint-mail,Splint Mail,169,30,0,ITEM_KIND_ARMOR,0,13,50,35,,,,1,armor-heavy-armor,metal,,,,,,,,,kortes,,,miruca,,homura,,,,,,15,,45,,ITEM_ARM_SPLIT_MAIL
+meteorite-armor,Meteorite Armor,170,35,0,ITEM_KIND_ARMOR,3,17,50,30,1,1,,,armor-heavy-armor,metal,,,,,,,,,kortes,,,miruca,,homura,,,,,,,10,55,,ITEM_ARM_METEORITE_ARMOR
+magic-plate,Magic Plate,359,40,0,ITEM_KIND_ARMOR,2,20,50,15,1,,,1,armor-heavy-armor,metal,,,,,,,,,kortes,,,miruca,,homura,,,,,,30,,75,,ITEM_ARM_MAGIC_PLATE
+dragoon-mail,Dragoon Mail,171,45,0,ITEM_KIND_ARMOR,2,25,50,20,1,1,,1,armor-heavy-armor,metal,,,,,,,,,kortes,,,miruca,,homura,,,,,7,7,7,100,7,ITEM_ARM_DRAGOON_MAIL
+windbreaker,Windbreaker,172,10,0,ITEM_KIND_ARMOR,1,1,50,15,,,,1,armor-light-armor,cloth,,,,,,,,,,wilbell,jurie,,keithgriff,,,,logy,,,,,15,7,ITEM_ARM_WINDBREAK_CLOAK
+leather-coat,Leather Coat,360,15,0,ITEM_KIND_ARMOR,1,5,50,20,,1,,,armor-light-armor,pelt,,,,,,,,,,wilbell,jurie,,keithgriff,,,,logy,,,,,22,,ITEM_ARM_LEATHER_COAT
+agile-coat,Agile Coat,361,20,0,ITEM_KIND_ARMOR,2,9,50,25,,,,1,armor-light-armor,cloth,,,,,,,,,,wilbell,jurie,,keithgriff,,,,logy,,,,,31,15,ITEM_ARM_DEX_COAT
+gold-embroidered-coat,Gold Embroidered Coat,173,25,0,ITEM_KIND_ARMOR,1,14,50,20,,1,,1,armor-light-armor,cloth,,,,,,,,,,wilbell,jurie,,keithgriff,,,,logy,,25,,,43,,ITEM_ARM_EMBROIDERY_COAT
+dragoon-coat,Dragoon Coat,362,30,0,ITEM_KIND_ARMOR,3,18,50,25,1,,1,1,armor-light-armor,cloth,,,,,,,,,,wilbell,jurie,,keithgriff,,,,logy,,15,15,15,64,15,ITEM_ARM_DRAGOON_CAPE
+divine-coat,Divine Coat,174,35,0,ITEM_KIND_ARMOR,3,21,50,15,1,1,1,1,armor-light-armor,cloth,,,,,,,,,,wilbell,jurie,,keithgriff,,,,logy,,,,20,80,20,ITEM_ARM_MYSTIC_COAT
+leather-gloves,Leather Gloves,363,8,0,ITEM_KIND_ACCESSORY,1,10,50,20,,1,,,accessory,pelt,,,,,,,stera,lotte,kortes,wilbell,jurie,miruca,keithgriff,homura,escha,solle,logy,ayesha,,,,,,ITEM_ACC_LEATHER_GLOVE
+leather-boots,Leather Boots,176,12,0,ITEM_KIND_ACCESSORY,1,16,50,25,,,,1,accessory,pelt,,,,,,,stera,lotte,kortes,wilbell,jurie,miruca,keithgriff,homura,escha,solle,logy,ayesha,,,,,,ITEM_ACC_LEATHER_BOOTS
+aroma-pouch,Aroma Pouch,364,13,0,ITEM_KIND_ACCESSORY,2,29,50,30,,,,1,accessory,aroma,,,,,,,stera,lotte,kortes,wilbell,jurie,miruca,keithgriff,homura,escha,solle,logy,ayesha,,,,,,ITEM_ACC_AROMA_POUCH
+angel-ribbon,Angel Ribbon,365,14,0,ITEM_KIND_ACCESSORY,2,23,50,45,,,,1,accessory,cloth,,,,,,,stera,lotte,kortes,wilbell,jurie,miruca,keithgriff,homura,escha,solle,logy,ayesha,,,,,,ITEM_ACC_ANGEL_RIBBON
+feather-ornament,Feather Ornament,366,19,0,ITEM_KIND_ACCESSORY,1,43,50,40,,,,1,accessory,,,,,,,,stera,lotte,kortes,wilbell,jurie,miruca,keithgriff,homura,escha,solle,logy,ayesha,,,,,,ITEM_ACC_FEATHER_ORNAMENT
+blue-crystal-ring,Blue Crystal Ring,367,28,0,ITEM_KIND_ACCESSORY,2,48,50,15,,1,1,1,accessory,jewel,,,,,,,stera,lotte,kortes,wilbell,jurie,miruca,keithgriff,homura,escha,solle,logy,ayesha,,,,,,ITEM_ACC_CRYSTAL_RING
+gauntlet,Gauntlet,177,15,0,ITEM_KIND_ACCESSORY,1,32,50,25,,1,,,accessory,metal,,,,,,,stera,lotte,kortes,wilbell,jurie,miruca,keithgriff,homura,escha,solle,logy,ayesha,,,,,,ITEM_ACC_GAUNTLET
+metal-boots,Metal Boots,178,20,0,ITEM_KIND_ACCESSORY,1,36,50,30,,,,1,accessory,metal,,,,,,,stera,lotte,kortes,wilbell,jurie,miruca,keithgriff,homura,escha,solle,logy,ayesha,,,,,,ITEM_ACC_METAL_BOOTS
+spirit-belt,Spirit Belt,175,26,0,ITEM_KIND_ACCESSORY,3,52,50,30,,,1,1,accessory,mystery,,,,,,,stera,lotte,kortes,wilbell,jurie,miruca,keithgriff,homura,escha,solle,logy,ayesha,,,,,,ITEM_ACC_SPIRITS_BAND
+gunade-ring,Gunade Ring,368,27,0,ITEM_KIND_ACCESSORY,1,49,50,45,,1,,,accessory,metal,,,,,,,stera,lotte,kortes,wilbell,jurie,miruca,keithgriff,homura,escha,solle,logy,ayesha,,,,,,ITEM_ACC_GUNADE_RING
+glass-tiara,Glass Tiara,369,24,0,ITEM_KIND_ACCESSORY,2,44,50,20,,1,1,,accessory,synthesis,,,,,,,stera,lotte,kortes,wilbell,jurie,miruca,keithgriff,homura,escha,solle,logy,ayesha,,,,,,ITEM_ACC_GLASS_TIARA
+brother-call,Brother Call,370,20,0,ITEM_KIND_ACCESSORY,2,60,50,40,,1,1,,accessory,mystery,,,,,,,stera,lotte,kortes,wilbell,jurie,miruca,keithgriff,homura,escha,solle,logy,ayesha,,,,,,ITEM_ACC_BROTHER_CALL
+gold-coin-of-fortune,Gold Coin of Fortune,371,44,0,ITEM_KIND_ACCESSORY,1,52,50,30,1,,1,1,accessory,mystery,metal,,,,,,stera,lotte,kortes,wilbell,jurie,miruca,keithgriff,homura,escha,solle,logy,ayesha,,,,,,ITEM_ACC_SEVEN_PLANET_MEDAL
+dragon-shield,Dragon Shield,372,29,0,ITEM_KIND_ACCESSORY,2,46,50,20,1,1,1,1,accessory,antique,,,,,,,stera,lotte,kortes,wilbell,jurie,miruca,keithgriff,homura,escha,solle,logy,ayesha,,,,,,ITEM_ACC_DRAGON_ICON_SHIELD
+treasure-grimoire,Treasure Grimoire,373,30,0,ITEM_KIND_ACCESSORY,2,56,50,25,1,1,1,1,accessory,book,,,,,,,stera,lotte,kortes,wilbell,jurie,miruca,keithgriff,homura,escha,solle,logy,ayesha,,,,,,ITEM_ACC_TREASURE_HUNTING_GRIMOIRE
+ancient-power-belt,Ancient Power Belt,424,30,0,ITEM_KIND_ACCESSORY,3,46,50,40,1,,,,accessory,ancient-power,antique,,,200,,,stera,lotte,kortes,wilbell,jurie,miruca,keithgriff,homura,escha,solle,logy,ayesha,,,,,,ITEM_ACC_RERIC_BELT
+one-angle-mascara,One Angle Mascara,425,35,0,ITEM_KIND_ACCESSORY,3,58,50,40,,,1,,accessory,,,,,,,,stera,lotte,kortes,wilbell,jurie,miruca,keithgriff,homura,escha,solle,logy,ayesha,,,,,,ITEM_ACC_UNICORN_MASCHERA
+meteor-gloves,Meteor Gloves,426,22,0,ITEM_KIND_ACCESSORY,1,57,50,20,1,1,,1,accessory,metal,,,,,,,stera,lotte,kortes,wilbell,jurie,miruca,keithgriff,homura,escha,solle,logy,ayesha,,,,,,ITEM_ACC_METEOR_GLOVE
+meteor-boots,Meteor Boots,427,29,0,ITEM_KIND_ACCESSORY,1,62,50,20,1,1,,1,accessory,metal,,,,,,,stera,lotte,kortes,wilbell,jurie,miruca,keithgriff,homura,escha,solle,logy,ayesha,,,,,,ITEM_ACC_METEOR_BOOTS
+mirage-talisman,Mirage Talisman,428,30,0,ITEM_KIND_ACCESSORY,3,74,50,20,1,,1,1,accessory,mystery,,,,,,,stera,lotte,kortes,wilbell,jurie,miruca,keithgriff,homura,escha,solle,logy,ayesha,,,,,,ITEM_ACC_MIRAGE_TALISMAN
+union-membership-card,Union Membership Card,52,-1,0,ITEM_KIND_IMPORTANT,0,0,50,0,0,0,0,0,key,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_KEY__01
+eyedrops-of-truth,Eyedrops of Truth,400,10,0,ITEM_KIND_MIX,2,47,50,25,0,0,1,1,medicine,liquid,,,,,,,,,,,,,,,,,,,,,,,,ITEM_KEY__02
+mini-sound-machine,Mini Sound Machine,402,20,0,ITEM_KIND_MIX,1,1,50,20,1,1,0,0,ancient-power,metal,,,,,,,,,,,,,,,,,,,,,,,,ITEM_KEY__03
+nameless-note,Nameless Note,406,-1,0,ITEM_KIND_IMPORTANT,0,0,50,0,0,0,0,0,key,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_KEY__04
+wonder-drug-of-tranquility,Wonder Drug of Tranquility,418,30,0,ITEM_KIND_MIX,1,1,50,15,0,1,1,1,medicine,seasoning,medic-ing,,,,,,,,,,,,,,,,,,,,,,,ITEM_KEY__05
+noble-suit,Noble Suit,420,15,0,ITEM_KIND_MIX,1,0,50,20,0,0,0,1,cloth,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_KEY__06
+formal-dinner-suit,Formal Dinner Suit,421,25,0,ITEM_KIND_MIX,1,0,50,30,0,1,0,1,cloth,thread,,,,,,,,,,,,,,,,,,,,,,,,ITEM_KEY__07
+mountain-of-snacks,Mountain of Snacks,404,-1,0,ITEM_KIND_IMPORTANT,0,0,50,0,0,0,0,0,key,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_KEY__08
+shovel,Shovel,407,-1,0,ITEM_KIND_IMPORTANT,0,0,50,0,0,0,0,0,key,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_KEY__09
+pickaxe,Pickaxe,408,-1,0,ITEM_KIND_IMPORTANT,0,0,50,0,0,0,0,0,key,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_KEY__10
+dad-s-fishing-rod,Dad's Fishing Rod,409,-1,0,ITEM_KIND_IMPORTANT,0,0,50,0,0,0,0,0,key,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_KEY__11
+food-rabbit-toy,Food Rabbit Toy,410,-1,0,ITEM_KIND_IMPORTANT,0,0,50,0,0,0,0,0,key,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_KEY__12
+g-mini-slag-statue,G Mini Slag Statue,411,-1,0,ITEM_KIND_IMPORTANT,0,0,50,0,0,0,0,0,key,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_KEY__13
+mysterious-ancient-relic,Mysterious Ancient Relic,412,-1,0,ITEM_KIND_IMPORTANT,0,0,50,0,0,0,0,0,key,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_KEY__14
+barrel-matryoshka,Barrel Matryoshka,413,-1,0,ITEM_KIND_IMPORTANT,0,0,50,0,0,0,0,0,key,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_KEY__15
+mysterious-tribal-mask,Mysterious Tribal Mask,414,-1,0,ITEM_KIND_IMPORTANT,0,0,50,0,0,0,0,0,key,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_KEY__16
+legendary-wig,Legendary Wig,415,-1,0,ITEM_KIND_IMPORTANT,0,0,50,0,0,0,0,0,key,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_KEY__17
+keith-s-herbal-tobacco,Keith's Herbal Tobacco,416,-1,0,ITEM_KIND_IMPORTANT,0,0,50,0,0,0,0,0,key,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_KEY__18
+key-item-19,Key Item 19,0,-1,0,ITEM_KIND_IMPORTANT,0,0,50,0,0,0,0,0,key,,,,,,,,,,,,,,,,,,,,,,,,,ITEM_KEY__19
+ancient-alchemy-book,Ancient Alchemy Book,201,-1,0,ITEM_KIND_BOOK,0,3,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_01
+shallie-s-memo,Shallie's Memo,209,-1,0,ITEM_KIND_BOOK,0,3,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_02
+cooking-for-beginners,Cooking for Beginners,208,-1,0,ITEM_KIND_BOOK,0,5,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_03
+craftwork-for-beginners,Craftwork for Beginners,202,-1,0,ITEM_KIND_BOOK,0,8,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_04
+the-man-charmed-by-fire,The Man Charmed by Fire,204,-1,0,ITEM_KIND_BOOK,0,13,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_05
+local-history-of-stellard,Local History of Stellard,202,-1,0,ITEM_KIND_BOOK,0,16,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_06
+introduction-to-leather,Introduction to Leather,210,-1,0,ITEM_KIND_BOOK,0,16,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_07
+supplement-revolution,Supplement Revolution!,208,-1,0,ITEM_KIND_BOOK,0,26,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_08
+the-fearsome-power-of-nature,The Fearsome Power of Nature,203,-1,0,ITEM_KIND_BOOK,0,26,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_09
+knowledge-of-a-housewife,Knowledge of a Housewife,207,-1,0,ITEM_KIND_BOOK,0,25,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_10
+shiny-zappy,Shiny Zappy,206,-1,0,ITEM_KIND_BOOK,0,28,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_11
+skillful-woodworking,Skillful Woodworking,203,-1,0,ITEM_KIND_BOOK,0,25,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_12
+cutting-edge-fashions,Cutting-Edge Fashions,209,-1,0,ITEM_KIND_BOOK,0,33,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_13
+object-flotation-techniques,Object Flotation Techniques,205,-1,0,ITEM_KIND_BOOK,0,18,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_14
+fire-spirit-words-of-the-soul,Fire Spirit - Words of the Soul,203,-1,0,ITEM_KIND_BOOK,0,33,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_15
+a-weak-boy-s-endeavors,A Weak Boy's Endeavors,210,-1,0,ITEM_KIND_BOOK,0,41,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_16
+dusk-nutrition-first-edition,Dusk Nutrition - First Edition,203,-1,0,ITEM_KIND_BOOK,0,45,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_17
+central-style-smithing-guide,Central Style Smithing Guide,206,-1,0,ITEM_KIND_BOOK,0,36,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_18
+next-generation-craftwork,Next Generation Craftwork,204,-1,0,ITEM_KIND_BOOK,0,44,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_19
+walking-in-dusk-continuation,Walking in Dusk - Continuation,205,-1,0,ITEM_KIND_BOOK,0,53,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_20
+book-of-dragon-divination,Book of Dragon Divination,204,-1,0,ITEM_KIND_BOOK,0,52,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_21
+tempered-materials,Tempered Materials,202,-1,0,ITEM_KIND_BOOK,0,28,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_22
+the-remnants,The Remnants,205,-1,0,ITEM_KIND_BOOK,0,48,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_23
+engineer-becketts,Techniques of Engineer Becketts,206,-1,0,ITEM_KIND_BOOK,0,50,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_24
+stylish-central,Stylish Central,210,-1,0,ITEM_KIND_BOOK,0,49,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_25
+health-conscious-medicine,Medicine for the Health-Conscious,203,-1,0,ITEM_KIND_BOOK,0,58,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_26
+starlight-of-the-heavens,Starlight of the Heavens,204,-1,0,ITEM_KIND_BOOK,0,61,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_27
+the-way-of-the-world,The Way of the World,206,-1,0,ITEM_KIND_BOOK,0,64,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_28
+the-legendary-traveler,The Legendary Traveler,204,-1,0,ITEM_KIND_BOOK,0,60,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_29
+forgotten-arts,Forgotten Arts,202,-1,0,ITEM_KIND_BOOK,0,74,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_30
+legendary-forging-book,Legendary Forging Book,206,-1,0,ITEM_KIND_BOOK,0,62,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_31
+mythical-materials,Mythical Materials,205,-1,0,ITEM_KIND_BOOK,0,45,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_32
+searching-for-lost-items,Searching for Lost Items,211,-1,0,ITEM_KIND_BOOK,0,47,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_33
+dad-s-reference-book,Dad's Reference Book,419,-1,0,ITEM_KIND_BOOK,0,75,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_34
+bait-production-memo,Bait Production Memo,207,-1,0,ITEM_KIND_BOOK,0,24,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_35
+how-to-make-tarts,How to Make Tarts,210,-1,0,ITEM_KIND_BOOK,0,21,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_36
+how-to-make-tarts-revision,How to Make Tarts - Revision,209,-1,0,ITEM_KIND_BOOK,0,30,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_37
+water-extraction-methods,Water Extraction Methods,207,-1,0,ITEM_KIND_BOOK,0,25,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_38
+secret-book-of-the-clan,Secret Book of the Clan,417,-1,0,ITEM_KIND_BOOK,0,74,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_39
+wilbell-s-special-book,Wilbell's Special Book,206,-1,0,ITEM_KIND_BOOK,0,69,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_40
+ancient-formulas,Ancient Formulas,201,-1,0,ITEM_KIND_BOOK,0,12,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_41
+miruca-s-reference-book,Miruca's Reference Book,205,-1,0,ITEM_KIND_BOOK,0,12,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_42
+keithgriff-s-memo,Keithgriff's Memo,403,-1,0,ITEM_KIND_BOOK,0,1,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_43
+encyclopedia-of-illnesses,Encyclopedia of Illnesses,405,-1,0,ITEM_KIND_BOOK,0,99,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_44
+ultimate-stellard-cuisine,Ultimate Stellard Cuisine,211,-1,0,ITEM_KIND_BOOK,0,60,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_45
+confection-fair-recipes,Confection Fair Recipes,212,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_46
+from-the-wilderness,From the Wilderness,423,-1,0,ITEM_KIND_BOOK,0,55,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_47
+the-harry-chronicles,The Harry Chronicles,429,-1,0,ITEM_KIND_BOOK,0,38,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_48
+lugion-village-tradition,Lugion Village Tradition,417,-1,0,ITEM_KIND_BOOK,0,1,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_49
+hero-s-book,Hero's Book,419,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_50
+reference-book-51,Reference Book 51,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_51
+reference-book-52,Reference Book 52,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_52
+reference-book-53,Reference Book 53,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_53
+reference-book-54,Reference Book 54,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_54
+reference-book-55,Reference Book 55,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_55
+reference-book-56,Reference Book 56,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_56
+reference-book-57,Reference Book 57,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_57
+reference-book-58,Reference Book 58,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_58
+reference-book-59,Reference Book 59,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_59
+reference-book-60,Reference Book 60,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_60
+reference-book-61,Reference Book 61,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_61
+reference-book-62,Reference Book 62,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_62
+reference-book-63,Reference Book 63,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_63
+reference-book-64,Reference Book 64,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_64
+reference-book-65,Reference Book 65,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_65
+reference-book-66,Reference Book 66,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_66
+reference-book-67,Reference Book 67,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_67
+reference-book-68,Reference Book 68,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_68
+reference-book-69,Reference Book 69,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_69
+reference-book-70,Reference Book 70,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_70
+reference-book-71,Reference Book 71,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_71
+reference-book-72,Reference Book 72,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_72
+reference-book-73,Reference Book 73,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_73
+reference-book-74,Reference Book 74,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_74
+reference-book-75,Reference Book 75,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_75
+reference-book-76,Reference Book 76,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_76
+reference-book-77,Reference Book 77,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_77
+reference-book-78,Reference Book 78,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_78
+reference-book-79,Reference Book 79,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_79
+reference-book-80,Reference Book 80,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_80
+reference-book-81,Reference Book 81,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_81
+reference-book-82,Reference Book 82,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_82
+reference-book-83,Reference Book 83,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_83
+reference-book-84,Reference Book 84,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_84
+reference-book-85,Reference Book 85,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_85
+reference-book-86,Reference Book 86,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_86
+reference-book-87,Reference Book 87,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_87
+reference-book-88,Reference Book 88,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_88
+reference-book-89,Reference Book 89,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_89
+reference-book-90,Reference Book 90,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_90
+reference-book-91,Reference Book 91,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_91
+reference-book-92,Reference Book 92,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_92
+reference-book-93,Reference Book 93,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_93
+reference-book-94,Reference Book 94,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_94
+reference-book-95,Reference Book 95,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_95
+reference-book-96,Reference Book 96,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_96
+reference-book-97,Reference Book 97,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_97
+reference-book-98,Reference Book 98,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_98
+reference-book-99,Reference Book 99,234,-1,0,ITEM_KIND_BOOK,0,0,50,0,0,0,0,0,key,book,,,,,,,,,,,,,,,,,,,,,,,,ITEM_BOOK_RECIPE_99
+phantom-saber,Phantom Saber,445,10,0,ITEM_KIND_WEAPON,1,5,50,10,,1,,1,weapon-alchemy-sword,metal,,,,,,,,,,,,,,,,,logy,,,,20,,,ITEM_PC_10_WEP_00
+black-wing-veil,Black Wing Veil,446,20,0,ITEM_KIND_WEAPON,2,11,50,15,,,1,1,weapon-alchemy-sword,metal,,,,,,,,,,,,,,,,,logy,,,,30,,,ITEM_PC_10_WEP_01
+crysta-fang,Crysta-Fang,447,30,0,ITEM_KIND_WEAPON,3,20,50,20,1,,1,1,weapon-alchemy-sword,metal,,,,,,,,,,,,,,,,,logy,,,,45,,,ITEM_PC_10_WEP_02
+proto-phantom,Proto Phantom,448,40,0,ITEM_KIND_WEAPON,4,30,50,20,1,1,1,1,weapon-alchemy-sword,metal,,,,,,,,,,,,,,,,,logy,,,,60,,,ITEM_PC_10_WEP_03
+flower-tree-staff,Flower Tree Staff,449,10,0,ITEM_KIND_WEAPON,1,6,50,15,,,1,1,weapon-staff-2,lumber,,,,,,,,,,,,,,,,,,ayesha,,,13,,,ITEM_PC_11_WEP_00
+fragrant-staff,Fragrant Staff,450,20,0,ITEM_KIND_WEAPON,1,13,50,15,,1,,1,weapon-staff-2,lumber,,,,,,,,,,,,,,,,,,ayesha,,,25,,,ITEM_PC_11_WEP_01
+floral-staff,Floral Staff,451,30,0,ITEM_KIND_WEAPON,2,22,50,20,,1,1,1,weapon-staff-2,lumber,,,,,,,,,,,,,,,,,,ayesha,,,38,,,ITEM_PC_11_WEP_02
+fairy-queen-staff,Fairy Queen Staff,452,40,0,ITEM_KIND_WEAPON,2,29,50,25,1,,1,1,weapon-staff-2,lumber,,,,,,,,,,,,,,,,,,ayesha,,,50,,,ITEM_PC_11_WEP_03

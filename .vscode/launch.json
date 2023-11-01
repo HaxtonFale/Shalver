@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Trivial test",
+            "type": "python",
+            "request": "launch",
+            "program": "solver.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "-s", "Star Fruit", "-d", "Craft"
+            ]
+        },
+        {
+            "name": "Complicated test",
+            "type": "python",
+            "request": "launch",
+            "program": "solver.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "-s", "Divine Coat", "-d", "Chronicle Bunker"
+            ]
+        }
+    ]
+}

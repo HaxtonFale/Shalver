@@ -1,0 +1,9 @@
+{
+	"python.analysis.typeCheckingMode": "basic",
+	"cSpell.words": [
+		"Desynths",
+		"nameof",
+		"shallie"
+	],
+	"editor.insertSpaces": true
+}

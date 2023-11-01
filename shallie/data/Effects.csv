@@ -1,0 +1,462 @@
+,,,,,
+physical-dmg-s,1,Physical DMG-S,Deals physical damage. Physical damage is affected by the target's defense value.,物理ダメージ・弱,物理属性のダメージを与える。物理属性のダメージは、対象の防御力の値によって変動する
+physical-dmg-m,2,Physical DMG-M,Deals moderate physical damage. Physical damage is affected by the target's defense value.,物理ダメージ・中,中程度の物理属性のダメージを与える。物理属性のダメージは、対象の防御力の値によって変動する
+physical-dmg-l,3,Physical DMG-L,Deals strong physical damage. Physical damage is affected by the target's defense value.,物理ダメージ・強,強い物理属性のダメージを与える。物理属性のダメージは、対象の防御力の値によって変動する
+absorbs-stamina,4,Absorbs Stamina,Deals moderate physical damage. Physical damage is affected by the target's defense value.,体力を吸い込む,中程度の物理属性のダメージを与える。物理属性のダメージは、対象の防御力の値によって変動する
+absorbs-soul,5,Absorbs Soul,Deals moderate physical damage. Physical damage is affected by the target's defense value.,魂を吸い込む,中程度の物理属性のダメージを与える。物理属性のダメージは、対象の防御力の値によって変動する
+absorbs-all,6,Absorbs All,Deals physical damage. Physical damage is affected by the target's defense value.,全てを吸い込む,物理属性のダメージを与える。物理属性のダメージは、対象の防御力の値によって変動する
+fire-dmg-s,7,Fire DMG-S,Deals fire damage. Fire damage is affected by the target's fire resistance.,火ダメージ・弱,火属性のダメージを与える。火属性のダメージは、対象の火耐性によって変動する
+fire-dmg-m,8,Fire DMG-M,Deals moderate fire damage. Fire damage is affected by the target's fire resistance.,火ダメージ・中,中程度の火属性のダメージを与える。火属性のダメージは、対象の火耐性によって変動する
+fire-dmg-l,9,Fire DMG-L,Deals strong fire damage. Fire damage is affected by the target's fire resistance.,火ダメージ・強,強い火属性のダメージを与える。火属性のダメージは、対象の火耐性によって変動する
+water-dmg-s,10,Water DMG-S,Deals water damage. Water damage is affected by the target's water resistance.,水ダメージ・弱,水属性のダメージを与える。水属性のダメージは、対象の水耐性によって変動する
+water-dmg-m,11,Water DMG-M,Deals moderate water damage. Water damage is affected by the target's water resistance.,水ダメージ・中,中程度の水属性のダメージを与える。水属性のダメージは、対象の水耐性によって変動する
+water-dmg-l,12,Water DMG-L,Deals strong water damage. Water damage is affected by the target's water resistance.,水ダメージ・強,強い水属性のダメージを与える。水属性のダメージは、対象の水耐性によって変動する
+wind-dmg-s,13,Wind DMG-S,Deals wind damage. Wind damage is affected by the target's wind resistance.,風ダメージ・弱,風属性のダメージを与える。風属性のダメージは、対象の風耐性によって変動する
+wind-dmg-m,14,Wind DMG-M,Deals moderate wind damage. Wind damage is affected by the target's wind resistance.,風ダメージ・中,中程度の風属性のダメージを与える。風属性のダメージは、対象の風耐性によって変動する
+wind-dmg-l,15,Wind DMG-L,Deals strong wind damage. Wind damage is affected by the target's wind resistance.,風ダメージ・強,強い風属性のダメージを与える。風属性のダメージは、対象の風耐性によって変動する
+earth-dmg-s,16,Earth DMG-S,Deals earth damage. Earth damage is affected by the target's earth resistance.,土ダメージ・弱,土属性のダメージを与える。土属性のダメージは、対象の土耐性によって変動する
+earth-dmg-m,17,Earth DMG-M,Deals moderate earth damage. Earth damage is affected by the target's earth resistance.,土ダメージ・中,中程度の土属性のダメージを与える。土属性のダメージは、対象の土耐性によって変動する
+earth-dmg-l,18,Earth DMG-L,Deals strong earth damage. Earth damage is affected by the target's earth resistance.,土ダメージ・強,強い土属性のダメージを与える。土属性のダメージは、対象の土耐性によって変動する
+rain-of-fire,19,Rain of Fire,"Causes a rain of fire, dealing fire damage to the target. This effect occurs a set number of times during battle.",火の雨,火の雨を降らせ、対象に火属性のダメージを与える。この効果は戦闘中に一定の回数だけ繰り返し発生する
+rain-of-hellfire,20,Rain of Hellfire,"Causes a rain of hellfire, dealing fire damage to the target. This effect occurs a set number of times during battle.",業火の雨,業火の雨を降らせ、対象に火属性のダメージを与える。この効果は戦闘中に一定の回数だけ繰り返し発生する
+rain-of-magma,21,Rain of Magma,"Causes a rain of magma, dealing fire damage to the target. This effect occurs a set number of times during battle.",マグマの雨,マグマの雨を降らせ、対象に火属性のダメージを与える。この効果は戦闘中に一定の回数だけ繰り返し発生する
+physical-dmg-xl,22,Physical DMG-XL,Deals extremely strong physical damage. Physical damage is affected by the target's defense value.,物理ダメージ・超,物理属性の非常に強力なダメージを与える。物理属性のダメージは、対象の防御力の値によって変動する
+fire-dmg-xl,23,Fire DMG-XL,Deals extremely strong fire damage. Fire damage is affected by the target's fire resistance.,火ダメージ・超,非常に強力な火属性のダメージを与える。火属性のダメージは、対象の火耐性によって変動する
+wind-dmg-xl,24,Wind DMG-XL,Deals extremely strong wind damage. Wind damage is affected by the target's wind resistance.,風ダメージ・超,非常に強力な風属性のダメージを与える。風属性のダメージは、対象の風耐性によって変動する
+water-dmg-xl,25,Water DMG-XL,Deals extremely strong water damage. Water damage is affected by the target's water resistance.,水ダメージ・超,非常に強力な水属性のダメージを与える。水属性のダメージは、対象の水耐性によって変動する
+earth-dmg-xl,26,Earth DMG-XL,Deals extremely strong earth damage. Earth damage is affected by the target's earth resistance.,土ダメージ・超,非常に強力な土属性のダメージを与える。土属性のダメージは、対象の土耐性によって変動する
+destruction-light,27,Destruction Light,Deals the highest level of physical damage. Physical damage is affected by the target's defense value.,破壊の光,物理属性の最高レベルのダメージを与える。物理属性のダメージは、対象の防御力の値によって変動する
+flames-of-hell,28,Flames of Hell,Deals the highest level of fire damage. Fire damage is affected by the target's fire resistance.,煉獄の炎,最高レベルの火属性のダメージを与える。火属性のダメージは、対象の火耐性によって変動する
+heavy-water,29,Heavy Water,"Deals the highest level of water damage. Also, the larger the target, the greater the effect.",超重の水,最高レベルの水属性のダメージを与える。さらに、対象が大きいほど効果も大きくなる
+thunder-of-judgment,30,Thunder of Judgment,Deals the highest level of wind damage. Wind damage is affected by the target's wind resistance.,断罪の雷,最高レベルの風属性のダメージを与える。風属性のダメージは、対象の風耐性によって変動する
+force-of-mountains,31,Force of Mountains,"Deals the highest level of earth damage. Also, the larger the target, the greater the effect.",大山の圧,最高レベルの土属性のダメージを与える。さらに、対象が大きいほど効果も大きくなる
+falling-stars,32,Falling Stars,"Summons enormous star-like objects, crashing them down to deal damage. This effect persists for some time once activated.",落下星,巨大な星型のオブジェクトを召還し、落下させてダメージを与える。この効果は一度発生するとしばらくの間持続する
+summon-beast-king,33,Summon Beast King,"Borrows the strength of the King of Beastmen, unleashing a powerful attack.",獣王召還,獣人の王の力を借り、強力な攻撃を展開する
+commands-the-herd,34,Commands the Herd,"Summons a herd of Food Rabbits out of nowhere, trampling the enemy for great damage.",群れを操る,どこからともなく食料ウサギの群れを呼び、敵を蹂躙して大ダメージを与える
+commands-the-horde,35,Commands the Horde,"Summons a horde of Food Rabbits out of nowhere, trampling the enemy for huge damage.",大群を操る,どこからともなく食料ウサギの大群を呼び、敵を蹂躙して特大ダメージを与える
+pumpkin-guard,36,Pumpkin Guard,"Summons a pumpkin monster and orders it to attack, dealing fire damage for a period of time.",パンプキンガード,かぼちゃのおばけを召還し、しばらくの間炎属性の攻撃を行わせる
+blitzkrieg-special,37,Blitzkrieg Special,"Performs a blitz attack against the enemy using a Flying Board, dealing huge damage.",特攻スペシャル,とっておきのフライングボードで敵に特攻を仕掛け、特大ダメージを与える
+painful-attack,38,Painful Attack,Uses a pickling weight stone to perform a painful physical attack.,イタい一撃,つけもの石を使って物理的にイタい攻撃を仕掛ける
+intense-attack,39,Intense Attack,Uses a pickling weight stone to perform an intensely painful physical attack.,激痛の一撃,つけもの石を使って物理的に激しく痛い攻撃を仕掛ける
+blackout-attack,40,Blackout Attack,Uses a pickling weight stone to perform an unendurably painful physical attack.,悶絶する一撃,つけもの石を使って物理的にガマンできないほど痛い攻撃を仕掛ける
+barrel-impact,41,Barrel Impact,Crashes a hard barrel into the target to deal large damage.,たるインパクト,カタいタルをぶつけ、大きなダメージを与える
+barrel-dynamite,42,Barrel Dynamite,Crashes a ridiculously hard barrel into the target to deal extremely large damage.,たるダイナマイト,とんでもなくカタいタルをぶつけ、かなり大きなダメージを与える
+bursts,43,Bursts,"Bursts open, dealing minute physical damage to the target. Its power is extremely small.",弾ける,弾けることで対象に微細な物理ダメージを与える。威力は非常に小さい
+explodes,44,Explodes,"Explodes, dealing physical damage to the target. Its power is small.",爆発する,爆発することで対象に物理ダメージを与える。威力は小さい
+successive-charge,45,Successive Charge,This high speed charge has a very low chance of allowing for another consecutive turn.,連続チャージ,高速で体当たりすることで、非常に低い確率で連続で行動できることがある
+complete-freeze,46,Complete Freeze,"Freezes the target with extreme cold, pushing back their turn. The power of this effect is reduced every time it is used, until the target takes a turn.",完全凍結,強力な冷気で対象を凍らせ、行動順を後ろに押し戻す。この効果は対象が行動するまで、使用する度に威力が減少していく
+intense-shock,47,Intense Shock,An intense electrical shock reduces the target's HP by a small amount. The amount reduced depends on the target's max HP.,強烈な電撃,強烈な電撃によるショックで、対象のＨＰが少しだけ減少する。減少量は対象の最大ＨＰによって変動する
+burns,48,Burns,Burns deal continuous damage. The effect is fairly small.,火傷を負わせる,火傷による継続ダメージを与える。効果はやや小さい
+severe-burns,49,Severe Burns,Severe burns deal continuous damage. The effect is large.,大火傷を負わせる,大きな火傷による継続ダメージを与える。効果は大きい
+fixed-dmg,50,Fixed DMG,"Deals fixed damage, not affected by the target's defense. The power is very small.",固定ダメージ,対象に防御力の影響を受けない固定ダメージを与える。威力は非常に小さい
+penetrating-dmg,51,Penetrating DMG,"Deals fixed damage, not affected by the target's defense. The power is small.",貫通ダメージ,対象に防御力の影響を受けない固定ダメージを与える。威力は小さい
+ignores-defense,52,Ignores Defense,"Deals fixed damage, not affected by the target's defense. The power is large.",防御無視ダメージ,対象に防御力の影響を受けない固定ダメージを与える。威力は大きい
+proportional-dmg,53,Proportional DMG,"Deals fixed damage, not affected by the target's defense. The power is very large.",定数比例ダメージ,対象に防御力の影響を受けない固定ダメージを与える。威力は非常に大きい
+unstable-dmg,54,Unstable DMG,"Deals fixed damage, not affected by the target's defense. The power is very large, but the variation is also large.",不安定なダメージ,対象に防御力の影響を受けない固定ダメージを与える。威力は非常に大きいが、数値の変動の幅も大きい
+stray-bullets,55,Stray Bullets,"The rain of fire also causes stray fragments to fly about, dealing fixed additional damage to the target.",流れ弾,火の雨による流れ弾を発生させ、対象に固定ダメージを追加で発生させる
+shooting-stars,56,Shooting Stars,"The rain of fire also causes shooting stars to fly about, dealing large fixed additional damage to the target.",流星,火の雨による流星を発生させ、対象に大きな固定ダメージを追加で発生させる
+reduces-all-stats,57,Reduces All Stats,Reduces all stat values of the target by a large amount.,全ての能力を下げる,対象の全ての能力の値を大きく低下させる
+triple-handicap,58,Triple Handicap,"Has a set chance to inflict poison, blindness, and weakness to the target.",三重苦,対象を一定の確率で毒・暗闇・弱体化の３つの状態異常にする
+quick-throw,59,Quick Throw,"Can be thrown quickly, reducing wait time after using the item.",素早く投げられる,素早く投げられるため、使用後の待ち時間が少なくてすむ
+steals-attack-power,60,Steals Attack Power,"Reduces the target's attack power, and temporarily increases the user's attack power by the amount reduced.",攻撃力を奪う,対象の攻撃力を低下させると共に、低下した分だけ、自分の攻撃力を一時的に上昇させる
+steals-defense,61,Steals Defense,"Reduces the target's defense, and temporarily increases the user's defense by the amount reduced.",防御力を奪う,対象の防御力を低下させると共に、低下した分だけ、自分の防御力を一時的に上昇させる
+steals-speed,62,Steals Speed,"Reduces the target's speed, and temporarily increases the user's speed by the amount reduced.",素早さを奪う,対象の素早さを低下させると共に、低下した分だけ、自分の素早さを一時的に上昇させる
+break-addition-s,63,Break Addition-S,"Increases Break effect inflicted on the target. However, this effect is distributed if multiple targets are hit.",ブレイク加算・弱,対象に与えるブレイクの効果を向上させる。ただし、対象が複数いる場合その効果は分散してしまう
+break-addition-m,64,Break Addition-M,"Moderately increases Break effect inflicted on the target. However, this effect is distributed if multiple targets are hit.",ブレイク加算・中,対象に与えるブレイクの効果をかなり向上させる。ただし、対象が複数いる場合その効果は分散してしまう
+break-addition-l,65,Break Addition-L,"Greatly increases Break effect inflicted on the target. However, this effect is distributed if multiple targets are hit.",ブレイク加算・強,対象に与えるブレイクの効果を大幅に向上させる。ただし、対象が複数いる場合その効果は分散してしまう
+break-addition-xl,66,Break Addition-XL,"Vastly increases Break effect inflicted on the target. However, this effect is distributed if multiple targets are hit.",ブレイク加算・超,対象に与えるブレイクの効果を飛躍的に向上させる。ただし、対象が複数いる場合その効果は分散してしまう
+hinders-movement-s,67,Hinders Movement-S,"Pushes the target's turn back by a small amount. The power of this effect is reduced every time it is used, until the target takes a turn.",動きを少し止める,対象の行動順を少しだけ後ろに押し戻す。この効果は対象が行動するまで、使用する度に威力が減少していく
+hinders-movement-m,68,Hinders Movement-M,"Pushes the target's turn back by a fair amount. The power of this effect is reduced every time it is used, until the target takes a turn.",動きを止める,対象の行動順をやや後ろに押し戻す。この効果は対象が行動するまで、使用する度に威力が減少していく
+hinders-movement-l,69,Hinders Movement-L,"Pushes the target's turn back by a large amount. The power of this effect is reduced every time it is used, until the target takes a turn.",動きを大きく止める,対象の行動順をある程度後ろに押し戻す。この効果は対象が行動するまで、使用する度に威力が減少していく
+attack-power-down-s,70,Attack Power Down-S,Reduces attack power of the target by a small amount.,攻撃力ダウン・弱,対象の攻撃力の値を少しだけ低下させる
+attack-power-down-m,71,Attack Power Down-M,Reduces attack power of the target.,攻撃力ダウン・中,対象の攻撃力の値を低下させる
+attack-power-down-l,72,Attack Power Down-L,Reduces attack power of the target by a large amount.,攻撃力ダウン・強,対象の攻撃力の値を大きく低下させる
+defense-down-s,73,Defense Down-S,Reduces defense of the target by a small amount.,防御力ダウン・弱,対象の防御力の値を少しだけ低下させる
+defense-down-m,74,Defense Down-M,Reduces defense of the target.,防御力ダウン・中,対象の防御力の値を低下させる
+defense-down-l,75,Defense Down-L,Reduces defense of the target by a large amount.,防御力ダウン・強,対象の防御力の値を大きく低下させる
+speed-down-s,76,Speed Down-S,Reduces speed of the target by a small amount.,素早さダウン・弱,対象の素早さの値を少しだけ低下させる
+speed-down-m,77,Speed Down-M,Reduces speed of the target.,素早さダウン・中,対象の素早さの値を低下させる
+speed-down-l,78,Speed Down-L,Reduces speed of the target by a large amount.,素早さダウン・強,対象の素早さの値を大きく低下させる
+weak-blindness,79,Weak Blindness,Has a set chance to inflict blindness on the target. The effect is small. Blindness reduces attack hit chance and evasion chance.,弱い暗闇状態にする,対象を一定確率で暗闇の状態異常にする。効果は小さい。暗闇状態になると、攻撃の命中率と回避率が低下する
+blindness,80,Blindness,Has a set chance to inflict blindness on the target. The effect is moderate. Blindness reduces attack hit chance and evasion chance.,暗闇状態にする,対象を一定確率で暗闇の状態異常にする。効果は中程度。暗闇状態になると、攻撃の命中率と回避率が低下する
+strong-blindness,81,Strong Blindness,Has a set chance to inflict blindness on the target. The effect is large. Blindness reduces attack hit chance and evasion chance.,強い暗闇状態にする,対象を一定確率で暗闇の状態異常にする。効果は大きい。暗闇状態になると、攻撃の命中率と回避率が低下する
+weak-poison,82,Weak Poison,Has a set chance to inflict poison on the target. The effect is small. Poison deals damage to the target on every turn.,弱い毒を与える,対象を一定確率で毒の状態異常にする。効果は小さい。毒状態になると、行動順がまわってきた時にダメージを受ける
+poison,83,Poison,Has a set chance to inflict poison on the target. The effect is moderate. Poison deals damage to the target on every turn.,毒を与える,対象を一定確率で毒の状態異常にする。効果は中程度。毒状態になると、行動順がまわってきた時にダメージを受ける
+strong-poison,84,Strong Poison,Has a set chance to inflict poison on the target. The effect is large. Poison deals damage to the target on every turn.,強い毒を与える,対象を一定確率で毒の状態異常にする。効果は大きい。毒状態になると、行動順がまわってきた時にダメージを受ける
+level-down-s,85,Level Down-S,"Reduces the target's level by a small amount. Reduced level reduces all stats, as well as damage inflicted.",レベルダウン・弱,対象のレベルを少し下げる。レベルが下がると全ての能力と与えるダメージが減少する
+level-down-m,86,Level Down-M,"Reduces the target's level. Reduced level reduces all stats, as well as damage inflicted.",レベルダウン・中,対象のレベルを下げる。レベルが下がると全ての能力と与えるダメージが減少する
+level-down-l,87,Level Down-L,"Reduces the target's level by a large amount. Reduced level reduces all stats, as well as damage inflicted.",レベルダウン・強,対象のレベルを大きく下げる。レベルが下がると全ての能力と与えるダメージが減少する
+weakens-legs-s,88,Weakens Legs-S,Has a set chance to inflict slow on the target. The effect is small. Slow increases wait time after taking turns by a fixed amount.,足を少し鈍らせる,対象を一定確率でスロウ状態にする。効果は小さい。スロウ状態になると、行動後の待ち時間が一定時間長くなる
+weakens-legs-m,89,Weakens Legs-M,Has a set chance to inflict slow on the target. The effect is moderate. Slow increases wait time after taking turns by a fixed amount.,足を鈍らせる,対象を一定確率でスロウ状態にする。効果は中程度。スロウ状態になると、行動後の待ち時間が一定時間長くなる
+weakens-legs-l,90,Weakens Legs-L,Has a set chance to inflict slow on the target. The effect is large. Slow increases wait time after taking turns by a fixed amount.,足を大きく鈍らせる,対象を一定確率でスロウ状態にする。効果は大きい。スロウ状態になると、行動後の待ち時間が一定時間長くなる
+reduces-stats-s,91,Reduces Stats-S,Has a set chance to inflict weakness on the target. The effect is small. Weakness greatly reduces the effectiveness of skills.,能力を少し下げる,対象を一定確率で弱体化状態にする。効果は小さい。弱体化状態になると、スキルの効果が大きく低下する
+reduces-stats-m,92,Reduces Stats-M,Has a set chance to inflict weakness on the target. The effect is moderate. Weakness greatly reduces the effectiveness of skills.,能力を下げる,対象を一定確率で弱体化状態にする。効果は中程度。弱体化状態になると、スキルの効果が大きく低下する
+reduces-stats-l,93,Reduces Stats-L,Has a set chance to inflict weakness on the target. The effect is large. Weakness greatly reduces the effectiveness of skills.,能力を大きく下げる,対象を一定確率で弱体化状態にする。効果は大きい。弱体化状態になると、スキルの効果が大きく低下する
+causes-ailments,94,Causes Ailments,"Has a set chance to inflict status ailments on the target. 1 of the following effects will occur: poison, blindness, slow, or weakness.",変化を引き起こす,対象に一定確率で状態異常を発生させる。発生する効果は毒・暗闇・スロウ・弱体化の中からどれか１つが発生する
+reduces-critical,95,Reduces Critical,Reduces the target's chance to score a critical hit.,大打撃率低下,対象のクリティカル発生率を低下させる
+draws-attention-2,96,Draws Attention,Greatly increases the chance that enemies will decide to attack the user of this effect.,注意を引きつける,対象がこの効果の使用者を攻撃対象にする確率を大きく上昇させる
+opens-wounds-s,97,Opens Wounds-S,Deals continuous damage to the target. The damage inflicted by this effect grows as the target's remaining HP decreases.,傷口を広げる,対象に継続ダメージを与える。この効果は、対象の残りＨＰが少ないほど、与えるダメージが大きくなっていく
+opens-wounds-m,98,Opens Wounds-M,Deals continuous damage to the target. The damage inflicted by this effect grows greatly as the target's remaining HP decreases.,傷口を大きく広げる,対象に継続ダメージを与える。この効果は、対象の残りＨＰが少ないほど、与えるダメージが非常に大きくなっていく
+continuous-dmg-s,99,Continuous DMG-S,"Deals continuous damage to the target. The effect is small, and the number of turns is short.",継続ダメージ・弱,対象に継続ダメージを与える。効果は小さく、継続ターンも短い
+continuous-dmg-m,100,Continuous DMG-M,"Deals continuous damage to the target. The effect is moderate, and the number of turns is short.",継続ダメージ・中,対象に継続ダメージを与える。効果は中程度で、継続ターンは短い
+continuous-dmg-l,101,Continuous DMG-L,"Deals continuous damage to the target. The effect is large, and the number of turns is short.",継続ダメージ・強,対象に継続ダメージを与える。効果は大きいが、継続ターンは短い
+dmg-absorb-s,102,DMG Absorb-S,"Deals physical damage to the target, and returns a portion of damage dealt as HP to the user.",ダメージ吸収・弱,対象に物理ダメージを与え、さらに与えたダメージの一部を自分のＨＰに還元する
+reduces-evasion-s,103,Reduces Evasion-S,Reduces the target's evasion chance.,回避率を下げる,対象の回避率を低下させる
+reduces-evasion-m,104,Reduces Evasion-M,Greatly reduces the target's evasion chance.,回避率を下げる・強,対象の回避率を大きく低下させる
+weak-to-ailments,105,Weak to Ailments,Increases the effectiveness of status conditions on the target. This effect does not increase the chance to inflict conditions.,変化に弱くなる,対象に発生する状態異常の効果を高める。この効果自体が、状態異常が発生する確率を高めるものではない
+weak-to-dmg,106,Weak to DMG,"Increases damage value done to the target by a set ratio. This is not cumulative, and only affects the highest effect.",打撃に弱くなる,対象に発生するダメージの値を一定の割合で上昇させる。重ねがけはできず、いちばん高い効果のみが適用される
+resonant-dmg,107,Resonant DMG,Deals physical damage to the target. This effect is greatly increased proportional to the number of enemies within range of the target.,共鳴ダメージ,対象に物理ダメージを与える。この効果は、対象の範囲内に存在する敵の数に比例して効果が大きくなっていく
+word-of-healing,108,Word of Healing,"Restores the target's HP. The lower the character's remaining HP, the bigger the effect, but the default effect is small.",癒しの言,対象キャラクターのＨＰを回復する。残りＨＰが少ないほど効果は大きくなるが、基本の回復量は小さい
+power-of-healing,109,Power of Healing,"Restores the target's HP. The lower the character's remaining HP, the bigger the effect, but the default effect is fairly small.",癒しの言霊,対象キャラクターのＨＰを回復する。残りＨＰが少ないほど効果は大きくなるが、基本の回復量はやや小さい
+heal-incantation,110,Heal Incantation,"Restores the target's HP. The lower the character's remaining HP, the bigger the effect, but the default effect is moderate.",癒しの大呪文,対象キャラクターのＨＰを回復する。残りＨＰが少ないほど効果は大きくなるが、基本の回復量は中程度
+dragon-power,111,Dragon Power,"Carry the power of dragons within the body temporarily, increasing level by a fair amount. Higher level increases attack power and speed.",竜の力,竜の力を体に宿し、一時的に対象のレベルをやや上昇させる。レベルが上がることで攻撃力と素早さが上昇する
+great-dragon-power,112,Great Dragon Power,"Carry the power of great dragons within the body temporarily, increasing level. Higher level increases attack power and speed.",超竜の力,超竜の力を体に宿し、一時的に対象のレベルを上昇させる。レベルが上がることで攻撃力と素早さが上昇する
+four-beasts-power,113,Four Beasts' Power,"Carry the power of the 4 Great Beasts within the body temporarily, increasing level by a large amount. Higher level increases attack power and speed.",四獣の力,四獣の力を体に宿し、一時的に対象のレベルを大きく上昇させる。レベルが上がることで攻撃力と素早さが上昇する
+undead-power,114,Undead Power,"If the target of this effect is KO'd, they will automatically recover on their next turn.",不死の力,この効果が発生している対象が戦闘不能になった場合、次に行動順が回ってきたときに自動的に戦闘不能から回復する
+hp-recovery-xs,115,HP Recovery-XS,The target recovers a minute amount of HP.,ＨＰ回復・微,対象のＨＰを微量だけ回復する
+hp-recovery-s,116,HP Recovery-S,The target recovers a small amount of HP.,ＨＰ回復・弱,対象のＨＰを少し回復する
+hp-recovery-m,117,HP Recovery-M,The target recovers HP.,ＨＰ回復・中,対象のＨＰを回復する
+hp-recovery-l,118,HP Recovery-L,The target recovers a large amount of HP.,ＨＰ回復・強,対象のＨＰを大きく回復する
+hp-recovery-xl,119,HP Recovery-XL,The target recovers a great amount of HP.,ＨＰ回復・超,対象のＨＰを大幅に回復する
+hp-recovery-xxl,120,HP Recovery-XXL,The target recovers a huge amount of HP.,ＨＰ回復・超大,対象のＨＰを非常に大きく回復する
+mp-recovery-xs,121,MP Recovery-XS,The target recovers a minute amount of MP.,ＭＰ回復・微,対象のＭＰを微量だけ回復する
+mp-recovery-s,122,MP Recovery-S,The target recovers a small amount of MP.,ＭＰ回復・弱,対象のＭＰを少し回復する
+mp-recovery-m,123,MP Recovery-M,The target recovers MP.,ＭＰ回復・中,対象のＭＰを回復する
+mp-recovery-l,124,MP Recovery-L,The target recovers a large amount of MP.,ＭＰ回復・強,対象のＭＰを大きく回復する
+mp-recovery-xl,125,MP Recovery-XL,The target recovers a great amount of MP.,ＭＰ回復・超,対象のＭＰを大幅に回復する
+mp-recovery-xxl,126,MP Recovery-XXL,The target recovers a huge amount of MP.,ＭＰ回復・超大,対象のＭＰを非常に大きく回復する
+recover-ko-xs,127,Recover KO-XS,"The target recovers from KO, and a minute amount of HP.",戦闘不能も回復・微,対象の戦闘不能を回復し、ＨＰを微量だけ回復する
+recover-ko-s,128,Recover KO-S,"The target recovers from KO, and a small amount of HP.",戦闘不能も回復・弱,対象の戦闘不能を回復し、ＨＰを少しだけ回復する
+recover-ko-m,129,Recover KO-M,"The target recovers from KO, and some HP.",戦闘不能も回復・中,対象の戦闘不能を回復し、ＨＰを回復する
+recover-ko-l,130,Recover KO-L,"The target recovers from KO, and a large amount of HP.",戦闘不能も回復・強,対象の戦闘不能を回復し、ＨＰを大きく回復する
+recover-ko-xl,131,Recover KO-XL,"The target recovers from KO, and a great amount of HP.",戦闘不能も回復・超,対象の戦闘不能を回復し、ＨＰを大幅に回復する
+continuous-healing-s,132,Continuous Healing-S,The target recovers a small amount of HP on the next turn.,継続ＨＰ回復・弱,対象のＨＰが、次の行動時に少し回復する
+continuous-healing-m,133,Continuous Healing-M,The target recovers HP on the next turn.,継続ＨＰ回復・中,対象のＨＰが、次の行動時に回復する
+continuous-healing-l,134,Continuous Healing-L,The target recovers a large amount of HP on the next turn.,継続ＨＰ回復・強,対象のＨＰが、次の行動時に大きく回復する
+eat-and-recover-xs,135,Eat and Recover-XS,The target recovers a minute amount of HP. The amount recovered increases with higher maximum HP.,たべて回復・微,対象のＨＰを微量だけ回復する。最大ＨＰの値に応じて、回復量が増えていく
+eat-and-recover-s,136,Eat and Recover-S,The target recovers a small amount of HP. The amount recovered increases with higher maximum HP.,たべて回復・弱,対象のＨＰを少し回復する。最大ＨＰの値に応じて、回復量が増えていく
+eat-and-recover-m,137,Eat and Recover-M,The target recovers HP. The amount recovered increases with higher maximum HP.,たべて回復・中,対象のＨＰを回復する。最大ＨＰの値に応じて、回復量が増えていく
+eat-and-recover-l,138,Eat and Recover-L,The target recovers a large amount of HP. The amount recovered increases with higher maximum HP.,たべて回復・強,対象のＨＰを大きく回復する。最大ＨＰの値に応じて、回復量が増えていく
+eat-and-recover-xl,139,Eat and Recover-XL,The target recovers a great amount of HP. The amount recovered increases with higher maximum HP.,たべて回復・超,対象のＨＰを大幅に回復する。最大ＨＰの値に応じて、回復量が増えていく
+eat-and-recover-xxl,140,Eat and Recover-XXL,The target recovers a huge amount of HP. The amount recovered increases with higher maximum HP.,たべて回復・超大,対象のＨＰを非常に大きく回復する。最大ＨＰの値に応じて、回復量が増えていく
+automatic-revive-s,141,Automatic Revive-S,"After being KO'd, the target automatically revives on their next turn. HP recovered during revival is small.",自動復活・弱,戦闘不能になった後、次に行動順がまわってきた時に自動で復活する。復活時のＨＰは少ない
+automatic-revive-m,142,Automatic Revive-M,"After being KO'd, the target automatically revives on their next turn. HP recovered during revival is moderate.",自動復活・中,戦闘不能になった後、次に行動順がまわってきた時に自動で復活する。復活時のＨＰは中程度
+automatic-revive-l,143,Automatic Revive-L,"After being KO'd, the target automatically revives on their next turn. HP recovered during revival is fairly large.",自動復活・強,戦闘不能になった後、次に行動順がまわってきた時に自動で復活する。復活時のＨＰはやや多い
+avoid-ko,144,Avoid KO,"If the target is KO'd, they automatically revive on their next turn.",戦闘不能回避付与,戦闘不能になった場合、次に行動がまわってきたときに自動的に復活する
+lighten-ailments-s,145,Lighten Ailments-S,Lightens the effects of status conditions by a small amount.,状態異常軽減・弱,状態異常によって発生する効果を少しだけ軽減する
+lighten-ailments-m,146,Lighten Ailments-M,Lightens the effects of status conditions by a fair amount.,状態異常軽減・中,状態異常によって発生する効果をある程度軽減する
+lighten-ailments-l,147,Lighten Ailments-L,Lightens the effects of status conditions by a decent amount.,状態異常軽減・強,状態異常によって発生する効果をそこそこ軽減する
+recover-ko,148,Recover KO,The target recovers from KO.,気絶値を回復,対象の行動不能の状態異常を回復する
+cure-poison,149,Cure Poison,The target recovers from poison.,毒状態を治療,対象の毒の状態異常を回復する
+cure-blindness,150,Cure Blindness,The target recovers from blindness.,暗闇状態を治療,対象の暗闇の状態異常を回復する
+cure-weakness,151,Cure Weakness,The target recovers from weakness.,弱体化を治療,対象の弱体化の状態異常を回復する
+cure-slow,152,Cure Slow,The target recovers from slow.,スロウ状態を治療,対象のスロウの状態異常を回復する
+cure-all,153,Cure All,The target recovers from all status conditions.,全ての状態を治療,対象の全ての状態異常を回復する
+refreshing,154,Refreshing,"Causes a refreshing feeling, recovering a tiny amount of Break value.",スッキリする,気持ちをスッキリさせ、ブレイク値をほんの少しだけ回復させる
+clears-the-mind,155,Clears the Mind,"Clears the mind, recovering a small amount of Break value.",頭がさえる,頭をさえさせ、ブレイク値を少しだけ回復させる
+awakening,156,Awakening,"Awakens the mind, recovering a fair amount of Break value.",目が覚める,目をパッチリ覚めさせて、ブレイク値をある程度回復させる
+cures-vertigo,157,Cures Vertigo,"Cures vertigo, recovering Break value.",めまいを治す,めまいを治し、ブレイク値を回復させる
+pep-up,158,Pep Up,"Completely peps up the user, recovering a large amount of Break value.",シャッキリする,気分をシャッキリさせ、ブレイク値を大きく回復させる
+great-mood,159,Great Mood,"Causes a great mood, recovering a huge amount of Break value.",気分爽快,気分爽快になり、ブレイク値を大幅に回復させる
+goddess-protect-s,160,Goddess' Protect-S,Temporarily reduces physical damage received by the target. The effect is small.,女神の護り・弱,対象が受ける物理属性のダメージを一時的に軽減する。効果は小さい
+goddess-protect-m,161,Goddess' Protect-M,Temporarily reduces physical damage received by the target. The effect is moderate.,女神の護り・中,対象が受ける物理属性のダメージを一時的に軽減する。効果はやや小さい
+goddess-protect-l,162,Goddess' Protect-L,Temporarily reduces physical damage received by the target. The effect is fairly large.,女神の護り・強,対象が受ける物理属性のダメージを一時的に軽減する。効果はそれなり
+hp-mp-recovery-xs,163,HP & MP Recovery-XS,The target recovers a slight amount of HP and MP.,ＨＰＭＰ回復・微,対象のＨＰとＭＰをわずかに回復する
+hp-mp-recovery-s,164,HP & MP Recovery-S,The target recovers a small amount of HP and MP.,ＨＰＭＰ回復・弱,対象のＨＰとＭＰを少し回復する
+hp-mp-recovery-m,165,HP & MP Recovery-M,The target recovers HP and MP.,ＨＰＭＰ回復・中,対象のＨＰとＭＰを回復する
+hp-mp-recovery-l,166,HP & MP Recovery-L,The target recovers a large amount of HP and MP.,ＨＰＭＰ回復・強,対象のＨＰとＭＰを大きく回復する
+hp-mp-recovery-xl,167,HP & MP Recovery-XL,The target recovers a great amount of HP and MP.,ＨＰＭＰ回復・超,対象のＨＰとＭＰを大幅に回復する
+bad-taste,168,Bad Taste,"A horrible taste causes pain, dealing damage.",マズイ,あまりのまずさにもだえ苦しみ、ダメージを受けてしまう
+delicious,169,Delicious,Deliciously recovers a small amount of HP.,とても美味しい,美味しさでＨＰが少しだけ回復する
+fattening,170,Fattening,Certain nutrients that could cause certain effects when eaten are in here.,太りやすい,食べると影響を受けやすい栄養が含まれている
+100-fattening,171,100% Fattening,Certain nutrients that will definitely cause certain effects when eaten are in here.,確実に太る,食べると確実に影響がある栄養が含まれている
+instant-fattening,172,Instant Fattening,Certain nutrients in this cause instantaneous effects when eaten.,ただちに太る,食べると瞬間的に来る栄養が含まれている
+quick-digestion,173,Quick Digestion,"This is digested immediately when eaten, causing no effects on the body whatsoever.",すぐ消化される,食べたものがすぐに消化され、身体に影響を与えない
+forbidden-power,174,Forbidden Power,"Greatly increases all stats of the target. However, their maximum HP will also be temporarily reduced.",禁断の力,対象の全ての能力の値を大幅に高める。ただし、その反動で最大ＨＰの値が一時的に減少してしまう
+hp-regen-xs,175,HP Regen-XS,Regenerates a minute amount of HP on the target each turn. The effect lasts for 3 turns.,ＨＰ再生付与・微,対象に行動時にＨＰが微量だけ回復する効果を与える。効果は３回行動するまで持続する
+hp-regen-s,176,HP Regen-S,Regenerates a small amount of HP on the target each turn. The effect lasts for 3 turns.,ＨＰ再生付与・弱,対象に行動時にＨＰが少しだけ回復する効果を与える。効果は３回行動するまで持続する
+hp-regen-m,177,HP Regen-M,Regenerates HP on the target each turn. The effect lasts for 3 turns.,ＨＰ再生付与・中,対象に行動時にＨＰが回復する効果を与える。効果は３回行動するまで持続する
+hp-regen-l,178,HP Regen-L,Regenerates a large amount of HP on the target each turn. The effect lasts for 3 turns.,ＨＰ再生付与・強,対象に行動時にＨＰが大きく回復する効果を与える。効果は３回行動するまで持続する
+hp-regen-xl,179,HP Regen-XL,Regenerates a great amount of HP on the target each turn. The effect lasts for 3 turns.,ＨＰ再生付与・超,対象に行動時にＨＰが大幅に回復する効果を与える。効果は３回行動するまで持続する
+hp-regen-xxl,180,HP Regen-XXL,Regenerates a huge amount of HP on the target each turn. The effect lasts for 3 turns.,ＨＰ再生付与・超大,対象に行動時にＨＰが非常に大きく回復する効果を与える。効果は３回行動するまで持続する
+shortens-wait-s,181,Shortens Wait-S,Reduces the wait time after the target's next turn by a small amount.,待機時間短縮,対象が次に行動したとき、行動後の待機時間を少し短縮する
+shortens-wait-l,182,Shortens Wait-L,Reduces the wait time after the target's next turn by a fair amount.,待機時間短縮・強,対象が次に行動したとき、行動後の待機時間をある程度短縮する
+doping,183,Doping,"Temporarily increases level, increasing attack power and speed. This increase grows against higher level enemies.",ドーピング,レベルを一時的に上昇させ、攻撃力と素早さを上昇させる。敵のレベルが高いほど能力の上昇値も上がる
+hp-to-mp-convert,184,HP to MP Convert,Consumes HP to greatly restore MP.,ＨＰ→ＭＰ変換,ＨＰを消費し、ＭＰを大きく回復させる
+divine-protect-s,185,Divine Protect-S,Reduces the effectiveness of the next attack the target receives.,神の護り・弱,対象が次に受ける攻撃の効果を軽減する
+divine-protect-m,186,Divine Protect-M,Greatly reduces the effectiveness of the next attack the target receives.,神の護り・中,対象が次に受ける攻撃の効果を大きく軽減する
+divine-protect-l,187,Divine Protect-L,Massively reduces the effectiveness of the next attack the target receives.,神の護り・強,対象が次に受ける攻撃の効果を非常に大きく軽減する
+temp-stamina-up-s,188,Temp Stamina Up-S,Increases the target's maximum HP value during battle. The effect is small.,体力一時増強・弱,対象の最大ＨＰの値を、戦闘中に限り一時的に上昇させる。効果は小さい
+temp-stamina-up-m,189,Temp Stamina Up-M,Increases the target's maximum HP value during battle. The effect is moderate.,体力一時増強・中,対象の最大ＨＰの値を、戦闘中に限り一時的に上昇させる。効果は中程度
+temp-stamina-up-l,190,Temp Stamina Up-L,Increases the target's maximum HP value during battle. The effect is large.,体力一時増強・強,対象の最大ＨＰの値を、戦闘中に限り一時的に上昇させる。効果は大きい
+nutritious,191,Nutritious,"Nutritious and flavorful, increasing all stat values by a small amount.",栄養豊富,栄養豊富な味わいで、全ての能力の値を少しだけ上昇させる
+very-nutritious,192,Very Nutritious,"Full of nutrients and flavor, increasing all stat values.",栄養満点,栄養満点の味わいで、全ての能力の値を上昇させる
+mp-consume-xs,193,MP Consume-XS,Consumes a minute amount of MP. The effect is weakened if there is not enough MP.,ＭＰ消費・微,ＭＰを微量消費する。ＭＰが足りなかった場合、効果が弱くなってしまう
+mp-consume-s,194,MP Consume-S,Consumes a small amount of MP. The effect is weakened if there is not enough MP.,ＭＰ消費・弱,ＭＰを少し消費する。ＭＰが足りなかった場合、効果が弱くなってしまう
+mp-consume-m,195,MP Consume-M,Consumes MP. The effect is weakened if there is not enough MP.,ＭＰ消費・中,ＭＰを消費する。ＭＰが足りなかった場合、効果が弱くなってしまう
+mp-consume-l,196,MP Consume-L,Consumes a large amount of MP. The effect is weakened if there is not enough MP.,ＭＰ消費・強,ＭＰを大きく消費する。ＭＰが足りなかった場合、効果が弱くなってしまう
+mp-consume-xl,197,MP Consume-XL,Consumes a huge amount of MP. The effect is weakened if there is not enough MP.,ＭＰ消費・超,ＭＰを非常に大きく消費する。ＭＰが足りなかった場合、効果が弱くなってしまう
+hp-consume-l,198,HP Consume-L,Consumes a large amount of HP. The amount consumed depends on maximum HP.,ＨＰ消費・強,ＨＰを大きく消費する。消費する値は最大ＨＰによって変化する
+attack-power-up-s,199,Attack Power Up-S,Increases the target's attack power by a small amount. The effect lasts for 5 turns.,攻撃力アップ・弱,対象の攻撃力を少しだけ上昇させる。効果は５回行動するまで持続する
+attack-power-up-m,200,Attack Power Up-M,Increases the target's attack power. The effect lasts for 5 turns.,攻撃力アップ・中,対象の攻撃力を上昇させる。効果は５回行動するまで持続する
+attack-power-up-l,201,Attack Power Up-L,Increases the target's attack power by a large amount. The effect lasts for 5 turns.,攻撃力アップ・強,対象の攻撃力を大きく上昇させる。効果は５回行動するまで持続する
+speed-up-s,202,Speed Up-S,Increases the target's speed by a small amount. The effect lasts for 5 turns.,素早さアップ・弱,対象の素早さを少しだけ上昇させる。効果は５回行動するまで持続する
+speed-up-m,203,Speed Up-M,Increases the target's speed. The effect lasts for 5 turns.,素早さアップ・中,対象の素早さを上昇させる。効果は５回行動するまで持続する
+speed-up-l,204,Speed Up-L,Increases the target's speed by a large amount. The effect lasts for 5 turns.,素早さアップ・強,対象の素早さを大きく上昇させる。効果は５回行動するまで持続する
+defense-up-s,205,Defense Up-S,Increases the target's defense by a small amount. The effect lasts for 5 turns.,防御力アップ・弱,対象の防御力を少しだけ上昇させる。効果は５回行動するまで持続する
+defense-up-m,206,Defense Up-M,Increases the target's defense. The effect lasts for 5 turns.,防御力アップ・中,対象の防御力を上昇させる。効果は５回行動するまで持続する
+defense-up-l,207,Defense Up-L,Increases the target's defense by a large amount. The effect lasts for 5 turns.,防御力アップ・強,対象の防御力を大きく上昇させる。効果は５回行動するまで持続する
+all-stats-up-s,208,All Stats Up-S,Increases all of the target's stats by a small amount. The effect lasts for 5 turns.,全能力アップ・弱,対象の全ての能力の値を少しだけ上昇させる。効果は５回行動するまで持続する
+all-stats-up-m,209,All Stats Up-M,Increases all of the target's stats. The effect lasts for 5 turns.,全能力アップ・中,対象の全ての能力の値を上昇させる。効果は５回行動するまで持続する
+all-stats-up-l,210,All Stats Up-L,Increases all of the target's stats by a large amount. The effect lasts for 5 turns.,全能力アップ・強,対象の全ての能力の値を大きく上昇させる。効果は５回行動するまで持続する
+evasion-up-s,211,Evasion Up-S,Increases the target's evasion rate by a small amount. The effect lasts for 5 turns.,回避率アップ・弱,対象の攻撃回避率を少しだけ上昇させる。効果は５回行動するまで持続する
+evasion-up-m,212,Evasion Up-M,Increases the target's evasion rate. The effect lasts for 5 turns.,回避率アップ・中,対象の攻撃回避率を上昇させる。効果は５回行動するまで持続する
+evasion-up-l,213,Evasion Up-L,Increases the target's evasion rate by a large amount. The effect lasts for 5 turns.,回避率アップ・強,対象の攻撃回避率を大きく上昇させる。効果は５回行動するまで持続する
+accuracy-up-s,214,Accuracy Up-S,Increases the target's accuracy by a small amount. The effect lasts for 5 turns.,命中率アップ・弱,対象の攻撃命中率を少しだけ上昇させる。効果は５回行動するまで持続する
+accuracy-up-m,215,Accuracy Up-M,Increases the target's accuracy. The effect lasts for 5 turns.,命中率アップ・中,対象の攻撃命中率を上昇させる。効果は５回行動するまで持続する
+accuracy-up-l,216,Accuracy Up-L,Increases the target's accuracy by a large amount. The effect lasts for 5 turns.,命中率アップ・強,対象の攻撃命中率を大きく上昇させる。効果は５回行動するまで持続する
+quicken-action,217,Quicken Action,Moves the target's turn ahead by a small amount.,行動を速める,対象の行動順を少しだけ先に進める
+cold,218,Cold,"Coldness dulls the body, reducing the target's speed by a small amount.",つめた～い,冷たさで体の動きが鈍り、対象の素早さが少し下がる
+warm,219,Warm,"Warms the body, increasing the target's speed by a small amount.",あったか～い,体が温まり、対象の素早さが少し上がる
+blessing-of-warriors,220,Blessing of Warriors,All of the target's stat values increase for the duration of the battle. This increase grows when fighting stronger enemies.,戦士の祝福,対象の全ての能力値が、その戦闘の間上昇した状態になる。上昇量は、敵が強いほど上昇していく
+blessing-of-heroes,221,Blessing of Heroes,All of the target's stat values increase for the duration of the battle. This increase grows greatly when fighting stronger enemies.,英雄の祝福,対象の全ての能力値が、その戦闘の間上昇した状態になる。上昇量は、敵が強いほど大きく上昇していく
+blessing-of-gods,222,Blessing of Gods,All of the target's stat values increase for the duration of the battle. This increase grows immensely when fighting stronger enemies.,神々の祝福,対象の全ての能力値が、その戦闘の間上昇した状態になる。上昇量は、敵が強いほど飛躍的に上昇していく
+dmg-reduction-s,223,DMG Reduction-S,Reduces the amount of physical damage taken by the target by a fixed proportion. The effect is small.,ダメージ軽減・弱,対象が受ける物理ダメージの値を、一定の割合で軽減する。効果は小さい
+crit-increase-s,224,Crit Increase-S,Increases the target's critical hit chance by a small amount.,会心確率上昇・弱,対象の行動時にクリティカルが発生する確率を少しだけ上昇させる
+crit-increase-m,225,Crit Increase-M,Increases the target's critical hit chance by a fair amount.,会心確率上昇・中,対象の行動時にクリティカルが発生する確率をある程度上昇させる
+crit-increase-l,226,Crit Increase-L,Increases the target's critical hit chance by a large amount.,会心確率上昇・強,対象の行動時にクリティカルが発生する確率を大きく上昇させる
+crit-pwr-increase-s,227,Crit PWR Increase-S,Increases the damage bonus when the target scores a critical hit by a small amount.,会心威力上昇・弱,対象がクリティカルを発生させたときの補正の値を、少しだけ上昇させる
+crit-pwr-increase-m,228,Crit PWR Increase-M,Increases the damage bonus when the target scores a critical hit by a fair amount.,会心威力上昇・中,対象がクリティカルを発生させたときの補正の値を、ある程度上昇させる
+crit-pwr-increase-l,229,Crit PWR Increase-L,Increases the damage bonus when the target scores a critical hit by a large amount.,会心威力上昇・強,対象がクリティカルを発生させたときの補正の値を、大きく上昇させる
+becomes-good-ing,230,Becomes Good Ing.?,Increases the chances of finding better materials in the field.,いい材料に生長？,フィールドで、より良い素材を発見できる可能性が高くなる
+becomes-amazing-ing,231,Becomes Amazing Ing.?,Greatly increases the chances of finding better materials in the field.,すごい材料に生長？,フィールドで、より良い素材を発見できる可能性が非常に高くなる
+increases-resources,232,Increases Resources,Increases the number of materials obtained when gathering in the field.,資源が増える,フィールドで、一度に採取できる素材の数が増える
+discover-good-relic,233,Discover Good Relic?,Increases the chances of finding better relics in the field.,いい遺物発見？,フィールドで、より良い遺物を発見できる可能性が高くなる
+discover-great-relic,234,Discover Great Relic?,Greatly increases the chances of finding better relics in the field.,すごい遺物発見？,フィールドで、より良い遺物を発見できる可能性が非常に高くなる
+survey-eff-up,235,Survey Eff. Up,Increases the field gauge by 25％.,調査効率アップ,フィールドゲージの値を２５％上昇させる
+survey-eff-up-l,236,Survey Eff. Up-L,Increases the field gauge by 50％.,調査効率アップ・強,フィールドゲージの値を５０％上昇させる
+return-to-base,237,Return to Base,Instantly return to the workshop upon use.,拠点に戻る,使用すると、一瞬でアトリエに帰還することができるようになる
+can-catch-fish,238,Can Catch Fish,Allows you to catch fish in waters where fish are present.,魚が釣れる,魚がいる水場で魚を釣ることができるようになる
+dmg-absorb-m,239,DMG Absorb-M,Absorb a portion of damage dealt to the target to restore HP. The effect is fairly small.,ダメージ還元・中,対象に与えたダメージの一部を自分のＨＰに還元する。効果はやや小さい
+dmg-absorb-l,240,DMG Absorb-L,Absorb a portion of damage dealt to the target to restore HP. The effect is decent.,ダメージ還元・強,対象に与えたダメージの一部を自分のＨＰに還元する。効果はそこそこ
+dmg-absorb-xl,241,DMG Absorb-XL,Absorb a portion of damage dealt to the target to restore HP. The effect is large.,ダメージ還元・超,対象に与えたダメージの一部を自分のＨＰに還元する。効果は大きい
+enhance-break-s,242,Enhance Break-S,Increases the Break value when attacking enemies by a small amount.,ブレイク強化・弱,敵を攻撃したときのブレイクの値が少し上昇する
+enhance-break-m,243,Enhance Break-M,Increases the Break value when attacking enemies by a fair amount.,ブレイク強化・中,敵を攻撃したときのブレイクの値がやや上昇する
+enhance-break-l,244,Enhance Break-L,Increases the Break value when attacking enemies.,ブレイク強化・強,敵を攻撃したときのブレイクの値が上昇する
+enhance-break-xl,245,Enhance Break-XL,Increases the Break value when attacking enemies by a large amount.,ブレイク強化・超,敵を攻撃したときのブレイクの値が大きく上昇する
+enhance-burst-s,246,Enhance Burst-S,Enhances the damage bonus during Bursts. Damage increases by 5％.,バースト強化・弱,バースト中のダメージ補正が強化される。ダメージが５％上昇する
+enhance-burst-m,247,Enhance Burst-M,Enhances the damage bonus during Bursts. Damage increases by 6％.,バースト強化・中,バースト中のダメージ補正が強化される。ダメージが６％上昇する
+enhance-burst-l,248,Enhance Burst-L,Enhances the damage bonus during Bursts. Damage increases by 8％.,バースト強化・強,バースト中のダメージ補正が強化される。ダメージが８％上昇する
+enhance-burst-xl,249,Enhance Burst-XL,Enhances the damage bonus during Bursts. Damage increases by 10％.,バースト強化・超,バースト中のダメージ補正が強化される。ダメージが１０％上昇する
+burst-bonus-s,250,Burst Bonus-S,Increases the Burst gauge fill rate by 1％.,バースト補正・弱,バーストゲージの上昇量が１％増える
+burst-bonus-m,251,Burst Bonus-M,Increases the Burst gauge fill rate by 2％.,バースト補正・中,バーストゲージの上昇量が２％増える
+burst-bonus-l,252,Burst Bonus-L,Increases the Burst gauge fill rate by 3％.,バースト補正・強,バーストゲージの上昇量が３％増える
+burst-bonus-xl,253,Burst Bonus-XL,Increases the Burst gauge fill rate by 4％.,バースト補正・超,バーストゲージの上昇量が４％増える
+break-resist-s,254,Break Resist-S,Resistance to Break increases by a small amount.,ブレイク耐性・弱,ブレイクの耐久値が少し上昇する
+break-resist-m,255,Break Resist-M,Resistance to Break increases by a fair amount.,ブレイク耐性・中,ブレイクの耐久値がやや上昇する
+break-resist-l,256,Break Resist-L,Resistance to Break increases by a decent amount.,ブレイク耐性・強,ブレイクの耐久値が上昇する
+assist-recovery-s,257,Assist Recovery-S,The recovery speed of assist actions increases by a small amount.,アシスト回復・弱,アシスト行動の回復速度が少し上昇する
+assist-recovery-m,258,Assist Recovery-M,The recovery speed of assist actions increases by a fair amount.,アシスト回復・中,アシスト行動の回復速度がやや上昇する
+assist-recovery-l,259,Assist Recovery-L,The recovery speed of assist actions increases.,アシスト回復・強,アシスト行動の回復速度が上昇する
+enhance-rear-regen-s,260,Enhance Rear Regen-S,"The rate of HP recovery when in the rear line increases by a small amount, and MP also recovers.",後衛再生強化・弱,後衛にいる間のＭＰ回復量が少し上昇し、ＨＰも回復するようになる
+enhance-rear-regen-m,261,Enhance Rear Regen-M,"The rate of HP recovery when in the rear line increases by a fair amount, and MP also recovers.",後衛再生強化・中,後衛にいる間のＭＰ回復量がやや上昇し、ＨＰも回復するようになる
+enhance-rear-regen-l,262,Enhance Rear Regen-L,"The rate of HP recovery when in the rear line increases by a decent amount, and MP also recovers.",後衛再生強化・強,後衛にいる間のＭＰ回復量が上昇し、ＨＰも回復するようになる
+less-action-time-s,263,Less Action Time-S,Reduces the wait time after using skills by 5％.,行動時間短縮・弱,スキル使用時の行動後の待ち時間が、５％短縮される
+less-action-time-m,264,Less Action Time-M,Reduces the wait time after using skills by 7％.,行動時間短縮・中,スキル使用時の行動後の待ち時間が、７％短縮される
+less-action-chance-s,265,Less Action Chance-S,"There is a fixed chance that after taking a turn, wait time will be reduced by 10％.",確率行動短縮・弱,行動時、一定の確率で行動後の待ち時間が１０％短縮される
+less-action-chance-m,266,Less Action Chance-M,"There is a fixed chance that after taking a turn, wait time will be reduced by 15％.",確率行動短縮・中,行動時、一定の確率で行動後の待ち時間が１５％短縮される
+enhance-item-s,267,Enhance Item-S,Increases the item's power by 5％.,アイテム強化・弱,アイテムの威力が５％上昇する
+enhance-item-l,268,Enhance Item-L,Increases the item's power by 10％.,アイテム強化・強,アイテムの威力が１０％上昇する
+shorten-item-s,269,Shorten Item-S,Reduces wait time after using an item by 5％.,アイテム短縮・弱,アイテムを使った時の待ち時間が５％短縮される
+shorten-item-l,270,Shorten Item-L,Reduces wait time after using an item by 10％.,アイテム短縮・強,アイテムを使った時の待ち時間が１０％短縮される
+maximum-hp-10,271,Maximum HP +10,Increases maximum HP value by 10.,ＨＰ最大値＋１０,最大ＨＰの値が１０上昇する
+maximum-hp-15,272,Maximum HP +15,Increases maximum HP value by 15.,ＨＰ最大値＋１５,最大ＨＰの値が１５上昇する
+maximum-hp-20,273,Maximum HP +20,Increases maximum HP value by 20.,ＨＰ最大値＋２０,最大ＨＰの値が２０上昇する
+maximum-hp-25,274,Maximum HP +25,Increases maximum HP value by 25.,ＨＰ最大値＋２５,最大ＨＰの値が２５上昇する
+maximum-hp-30,275,Maximum HP +30,Increases maximum HP value by 30.,ＨＰ最大値＋３０,最大ＨＰの値が３０上昇する
+maximum-mp-10,276,Maximum MP +10,Increases maximum MP value by 10.,ＭＰ最大値＋１０,最大ＭＰの値が１０上昇する
+maximum-mp-15,277,Maximum MP +15,Increases maximum MP value by 15.,ＭＰ最大値＋１５,最大ＭＰの値が１５上昇する
+maximum-mp-20,278,Maximum MP +20,Increases maximum MP value by 20.,ＭＰ最大値＋２０,最大ＭＰの値が２０上昇する
+maximum-mp-25,279,Maximum MP +25,Increases maximum MP value by 25.,ＭＰ最大値＋２５,最大ＭＰの値が２５上昇する
+maximum-mp-30,280,Maximum MP +30,Increases maximum MP value by 30.,ＭＰ最大値＋３０,最大ＭＰの値が３０上昇する
+attack-power-5,281,Attack Power +5,Increases attack power by 5.,攻撃力＋５,攻撃力の値が５上昇する
+attack-power-10,282,Attack Power +10,Increases attack power by 10.,攻撃力＋１０,攻撃力の値が１０上昇する
+attack-power-15,283,Attack Power +15,Increases attack power by 15.,攻撃力＋１５,攻撃力の値が１５上昇する
+attack-power-20,284,Attack Power +20,Increases attack power by 20.,攻撃力＋２０,攻撃力の値が２０上昇する
+attack-power-25,285,Attack Power +25,Increases attack power by 25.,攻撃力＋２５,攻撃力の値が２５上昇する
+defense-5,286,Defense +5,Increases defense by 5.,防御力＋５,防御力の値が５上昇する
+defense-10,287,Defense +10,Increases defense by 10.,防御力＋１０,防御力の値が１０上昇する
+defense-15,288,Defense +15,Increases defense by 15.,防御力＋１５,防御力の値が１５上昇する
+defense-20,289,Defense +20,Increases defense by 20.,防御力＋２０,防御力の値が２０上昇する
+defense-25,290,Defense +25,Increases defense by 25.,防御力＋２５,防御力の値が２５上昇する
+speed-5,291,Speed +5,Increases speed by 5.,素早さ＋５,素早さの値が５上昇する
+speed-10,292,Speed +10,Increases speed by 10.,素早さ＋１０,素早さの値が１０上昇する
+speed-15,293,Speed +15,Increases speed by 15.,素早さ＋１５,素早さの値が１５上昇する
+speed-20,294,Speed +20,Increases speed by 20.,素早さ＋２０,素早さの値が２０上昇する
+speed-25,295,Speed +25,Increases speed by 25.,素早さ＋２５,素早さの値が２５上昇する
+resonating-bell,296,Resonating Bell,Increases fill rate of Burst gauge by 3.,共鳴の鈴音,行動時のバーストゲージの増加量が３％増える
+harmonizing-bell,297,Harmonizing Bell,Increases fill rate of Burst gauge by 4％.,調和の鈴音,行動時のバーストゲージの増加量が４％増える
+wisdom-of-experts,298,Wisdom of Experts,Switches 50％ of maximum HP and MP values.,識者の知恵,ＨＰとＭＰの最大値の値を、５０％ぶんだけ入れ替える
+wisdom-of-sages,299,Wisdom of Sages,Completely switches maximum HP and MP values.,賢者の知恵,ＨＰとＭＰの最大値の値を完全に入れ替える
+hard-leather,300,Hard Leather,Increases defense by 7.,ハードレザー,防御力の値が７上昇する
+easy-to-use-strength,301,Easy to Use Strength,Increases Break value caused by attacks by a small amount.,力を入れやすい,攻撃時のブレイク値が少しだけ上昇する
+increases-dexterity,302,Increases Dexterity,Increases the accuracy of attacks by 25％.,器用さが増す,攻撃の命中率が２５％上昇する
+magician-blessing,303,Magician Blessing,7％ of damage received is converted into MP damage.,魔法使いの加護,受けるダメージの７％が、ＭＰダメージに変換される
+angel-blessing,304,Angel Blessing,10％ of damage received is converted into MP damage.,守護天使の加護,受けるダメージの１０％が、ＭＰダメージに変換される
+ancient-god-s-blessing,305,Ancient God's Blessing,15％ of damage received is converted into MP damage.,古き神々の加護,受けるダメージの１５％が、ＭＰダメージに変換される
+quick-atk-knowledge,306,Quick ATK Knowledge,Reduces the wait time after using skills by 8％.,速攻の心得,スキル使用時の行動後の待ち時間が、８％短縮される
+quick-atk-mystery,307,Quick ATK Mystery,Reduces the wait time after using skills by 10％.,速攻の極意,スキル使用時の行動後の待ち時間が、１０％短縮される
+prayer-for-harmony,308,Prayer for Harmony,"Averages attack power, defense, and speed values.",調和の願い,攻撃力・防御力・素早さの値が平均化される
+attack-specialization,309,Attack Specialization,15％ of defense and speed are changed into attack power.,攻撃特化,攻撃力の値に、防御力と素早さの値の１５％の数値が移し変えられる
+defense-specialize,310,Defense Specialize,15％ of attack power and speed are changed into defense.,防御特化,防御力の値に、攻撃力と素早さの値の１５％の数値が移し変えられる
+speed-specialization,311,Speed Specialization,15％ of attack power and defense are changed into speed.,速度特化,素早さの値に、攻撃力と防御力の値の１５％の数値が移し変えられる
+awakens-the-body,312,Awakens the Body,"Attack power, defense, and speed are increased by a small amount dependent on current level. Higher level enhances the effect.",体を覚醒させる,攻撃力・防御力・素早さの値が、現在のレベルに応じて少し強化される。レベルが高くなるほど効果も強くなる
+awakens-body-mind,313,Awakens Body & Mind,"Attack power, defense, and speed are increased dependent on current level. Higher level enhances the effect.",全身を覚醒させる,攻撃力・防御力・素早さの値が、現在のレベルに応じて強化される。レベルが高くなるほど効果も強くなる
+soul-change,314,Soul Change,Increases the expected value of damage by a small amount. Higher level increases this effect.,魂の変化,ダメージの期待値が少し上昇する。レベルが高くなるほど効果は大きくなる
+soul-enhancement,315,Soul Enhancement,Increases the expected value of damage. Higher level increases this effect.,魂の強化,ダメージの期待値が上昇する。レベルが高くなるほど効果は大きくなる
+soul-evolution,316,Soul Evolution,Increases the expected value of damage by a large amount. Higher level increases this effect.,魂の超進化,ダメージの期待値が大きく上昇する。レベルが高くなるほど効果は大きくなる
+tempers-the-body,317,Tempers the Body,Increases maximum HP value by 15.,体を鍛える,最大ＨＰの値が１５上昇する
+tempers-the-being,318,Tempers the Being,Increases maximum HP value by 25.,肉体を鍛える,最大ＨＰの値が２５上昇する
+tempers-the-heart,319,Tempers the Heart,Increases maximum MP value by 15.,心を鍛える,最大ＭＰの値が１５上昇する
+tempers-the-mind,320,Tempers the Mind,Increases maximum MP value by 25.,精心を鍛える,最大ＭＰの値が２５上昇する
+tempers-the-spirit,321,Tempers the Spirit,Maximum HP and MP are both increased by 15.,心体を鍛える,最大ＨＰと最大ＭＰの値が１５ずつ上昇する
+strength,322,Strength,Increases attack power by 15.,力を与える,攻撃力の値が１５上昇する
+herculean-strength,323,Herculean Strength,Increases attack power by 25.,剛力を与える,攻撃力の値が２５上昇する
+protection,324,Protection,Increases defense by 15.,護りを与える,防御力の値が１５上昇する
+divine-protection,325,Divine Protection,Increases defense by 25.,加護を与える,防御力の値が２５上昇する
+speed,326,Speed,Increases speed by 15.,速さを与える,素早さの値が１５上昇する
+godspeed,327,Godspeed,Increases speed by 25.,迅速を与える,素早さの値が２５上昇する
+soothing-fragrance,328,Soothing Fragrance,Recover a small amount of HP with each turn.,癒される香り,行動時にＨＰが少しだけ回復する
+draws-attention,329,Draws Attention,Become targeted in battle more often.,注目を集める,戦闘中、攻撃対象になりやすくなる
+hard-to-notice,330,Hard to Notice,Become targeted in battle less often.,気付かれ難い,戦闘中、攻撃対象になりにくくなる
+heavy-strikes,331,Heavy Strikes,Increases the Break value dealt when attacking enemies by a small amount.,重い一撃,敵を攻撃したときのブレイクの上昇量が少し上昇する
+hard-hits,332,Hard Hits,Increases the Break value dealt when attacking enemies by a fair amount.,ハードヒット,敵を攻撃したときのブレイクの上昇量がやや上昇する
+super-heavy-followup,333,Super Heavy Followup,Increases the Break value dealt when attacking enemies by a moderate amount.,超重加撃,敵を攻撃したときのブレイクの上昇量が上昇する
+strong-on-impacts,334,Strong on Impacts,Resistance to Break increases by a small amount.,衝撃に強い,ブレイクの耐久値が少し上昇する
+resists-impacts,335,Resists Impacts,Resistance to Break increases by a moderate amount.,衝撃に耐える,ブレイクの耐久値が上昇する
+overcomes-impacts,336,Overcomes Impacts,Resistance to Break increases by a sizable amount.,衝撃を克服する,ブレイクの耐久値がかなり上昇する
+stun-recovery,337,Stun Recovery,Recover faster from Break condition.,気絶回復,ブレイク状態からの回復が早くなる
+fast-stun-recovery,338,Fast Stun Recovery,Recover much faster from Break condition.,気絶高速回復,ブレイク状態からの回復がかなり早くなる
+fast-assist-recovery,339,Fast Assist Recovery,The recovery speed of assist actions increases.,アシスト回復強化,アシスト行動の回復速度が上昇する
+seal-of-relief,340,Seal of Relief,Increases rate of HP recovery when in the rear line by a small amount.,休息の印,後衛にいる間のＨＰ回復量が少し上昇する
+seal-of-great-repose,341,Seal of Great Repose,Increases rate of HP recovery when in the rear line.,大安息の印,後衛にいる間のＨＰ回復量が上昇する
+seal-of-meditation,342,Seal of Meditation,Increases rate of MP recovery when in the rear line by a small amount.,瞑想の印,後衛にいる間のＭＰ回復量が少し上昇する
+seal-of-concentration,343,Seal of Concentration,Increases rate of MP recovery when in the rear line.,精神集中の印,後衛にいる間のＭＰ回復量が上昇する
+hot-fighting-spirit,344,Hot Fighting Spirit,Stats increase on every turn during battle. There is a limit to this bonus.,白熱の闘争心,戦闘中、行動する度に能力が上昇する。上昇する値には限りがある
+tranquil-spirit,345,Tranquil Spirit,"Temporarily increases stats during battle, but this value decreases with each turn.",沈静の闘争心,戦闘中、能力が一時的に上昇するが、行動する度に上昇量は減少していく
+explosive-power,346,Explosive Power,Increases damage dealt to enemies during a Burst by 5％.,爆発力増加,バースト中、敵に与えるダメージが５％上昇する
+up-explosive-power,347,Up Explosive Power,Increases damage dealt to enemies during a Burst by 7％.,爆発力強化,バースト中、敵に与えるダメージが７％上昇する
+more-explosive-power,348,More Explosive Power,Increases damage dealt to enemies during a Burst by 10％.,爆発力拡大,バースト中、敵に与えるダメージが１０％上昇する
+fighting-spirit-s,349,Fighting Spirit-S,Critical hit chance and critical hit damage increase by a slight amount.,闘志注入・弱,クリティカルの発生確率とクリティカル時のダメージボーナスがわずかに上がる
+fighting-spirit-m,350,Fighting Spirit-M,Critical hit chance and critical hit damage increase by a small amount.,闘志注入・中,クリティカルの発生確率とクリティカル時のダメージボーナスが少し上がる
+fighting-spirit-l,351,Fighting Spirit-L,Critical hit chance and critical hit damage increase by a decent amount.,闘志注入・強,クリティカルの発生確率とクリティカル時のダメージボーナスが上がる
+time-into-strength,352,Time into Strength,Increases the power of attack skills dependent on the wait time afterwards.,時間を力に,スキルの使用後の待機時間に応じて、使用した攻撃スキルの威力が上昇する
+life-into-strength,353,Life into Strength,"Increases attack power, defense, and speed by 10％ of maximum HP.",生命を力に,変動前の最大ＨＰの１０％の値だけ、攻撃力・防御力・素早さの値が上昇する
+spirit-into-strength,354,Spirit into Strength,"Increases attack power, defense, and speed by 10％ of maximum MP.",精神を力に,変動前の最大ＭＰの１０％の値だけ、攻撃力・防御力・素早さの値が上昇する
+band-of-circulation,355,Band of Circulation,A portion of HP damage and MP consumption are absorbed into the opposite pool. The effect is small.,循環の帯,発生したＨＰダメージやＭＰの消費を、別々の値に還元して回復する。効果は小さい
+hits-vitals,356,Hits Vitals,Increases critical hit chance by 10％.,急所に当たる,クリティカルの発生確率が１０％上昇する
+mitigates-ailments,357,Mitigates Ailments,Reduces the effect of status ailments by 15％.,異常を緩和する,状態異常に掛かる確率を１５％低下させる
+weakens-conditions,358,Weakens Conditions,Reduces the effect of status ailments by 33％.,状態を弱める,状態異常に掛かる確率を３３％低下させる
+challenger-s-spirit,359,Challenger's Spirit,"All stats increase by a fixed proportion when fighting higher level enemies, and powerful foes.",挑戦者の精神,自分よりレベルの高い敵や、強大な敵と戦闘するとき、全ての能力が一定の割合で上昇する
+enhance-skill-s,360,Enhance Skill-S,Increases skill power by 5％.,スキル強化・弱,スキルの威力が５％上昇する
+enhance-skill-m,361,Enhance Skill-M,Increases skill power by 7％.,スキル強化・中,スキルの威力が７％上昇する
+enhance-skill-l,362,Enhance Skill-L,Increases skill power by 10％.,スキル強化・強,スキルの威力が１０％上昇する
+enhance-skill-xl,363,Enhance Skill-XL,Increases skill power by 15％.,スキル強化・超,スキルの威力が１５％上昇する
+brings-success,364,Brings Success,"Increases the chance of causing chance based effects, such as status conditions, by 33％.",成功を呼び込む,状態異常などの確率系の効果が成功する確率を、３３％上昇させる
+strong-predicament,365,Strong Predicament,"Increases critical hit chance, evasion rate, and other stats when HP is below 25％.",窮地に強い,ＨＰの残量が２５％以下になったとき、クリティカルの発生確率や回避率などの値が上昇する
+cooperation-knowledge,366,Cooperation Knowledge,The effect of all assist actions increases by 7％.,協力の心得,全てのアシスト行動の効果が７％上昇する
+cooperation-mastery,367,Cooperation Mastery,The effect of all assist actions increases by 10％.,協力の極意,全てのアシスト行動の効果が１０％上昇する
+enhance-substitution,368,Enhance Substitution,Increases assist guard effect by 50％.,身代わり強化,アシスト防御の効果が５０％上昇する
+movement-of-acrobats,369,Movement of Acrobats,Increases chance to evade attacks by 7％.,軽業師の動き,攻撃を回避する確率が７％上昇する
+nullify-poison,370,Nullify Poison,Nullifies poison condition.,毒を無効化,毒の状態異常を無効化する
+nullify-weakness,371,Nullify Weakness,Nullifies weakness condition.,弱体化を無効化,弱体化の状態異常を無効化する
+nullify-blindness,372,Nullify Blindness,Nullifies blindness condition.,暗闇を無効化,暗闇の状態異常を無効化する
+nullify-one-hit-ko,373,Nullify One Hit KO,Nullifies instant KO condition.,一撃ダウンを無効化,戦闘不能効果を無効化する
+nullify-all,374,Nullify All,Nullifies all conditions.,全てを無効化,全ての状態異常を無効化する
+awakening-of-wings,375,Awakening of Wings,Automatically revive from KO status on turn during battle. HP when revived is low.,羽根の目覚め,戦闘中、戦闘不能になっている状態で行動順が回ってきたとき、自動で戦闘不能から復活する。復活時のＨＰは少ない
+awakening-of-souls,376,Awakening of Souls,Automatically revive from KO status on turn during battle. HP when revived is fairly low.,魂の目覚め,戦闘中、戦闘不能になっている状態で行動順が回ってきたとき、自動で戦闘不能から復活する。復活時のＨＰはやや少ない
+awakening-of-samsara,377,Awakening of Samsara,Automatically revive from KO status on turn during battle. HP when revived is moderate.,輪廻の目覚め,戦闘中、戦闘不能になっている状態で行動順が回ってきたとき、自動で戦闘不能から復活する。復活時のＨＰはそこそこ
+ultimate-mastery,378,Ultimate Mastery,Greatly increases the power of Ultimate attacks.,必殺技の極意,必殺技の威力が大きく上昇する
+resist-gravity,379,Resist Gravity,Reduces the effectiveness of any turn delaying effects received.,重力耐性,行動順を遅らせる効果を受けたとき、その効果を軽減させる
+super-resist-gravity,380,Super Resist Gravity,Halves the effectiveness of any turn delaying effects received.,重力超耐性,行動順を遅らせる効果を受けたとき、その効果を半減する
+crystal-protection,381,Crystal Protection,"Reduces damage taken by 5％, and also reduces the effectiveness of status ailments by a small amount.",水晶の守り,ダメージの値を５％軽減し、さらに状態異常に掛かる確率を１５％低下させる
+protection-of-mirages,382,Protection of Mirages,A portion of HP damage and MP consumption are absorbed into the opposite pool. The effect is moderate.,陽炎の守り,発生したＨＰダメージやＭＰの消費を、別々の値に還元して回復する。効果は中程度
+endow-fire-resist,383,Endow Fire Resist,Gain fire resistance while equipped.,火耐性付与,装備中、火耐性を得る
+endow-water-resist,384,Endow Water Resist,Gain water resistance while equipped.,水耐性付与,装備中、水耐性を得る
+endow-wind-resist,385,Endow Wind Resist,Gain wind resistance while equipped.,風耐性付与,装備中、風耐性を得る
+endow-earth-resist,386,Endow Earth Resist,Gain earth resistance while equipped.,土耐性付与,装備中、土耐性を得る
+master-of-bargains,387,Master of Bargains,Increases item drop chance from battle. Effective as long as at least one character is equipped with this effect.,拾い物の極意,戦闘でのアイテム入手確率が上昇する誰か一人が装備しているだけで効果がある
+master-of-misers,388,Master of Misers,Increases money obtained from battle. Effective as long as at least one character is equipped with this effect.,守銭奴の極意,戦闘で入手するお金の量が上昇する誰か一人が装備しているだけで効果がある
+master-of-studies,389,Master of Studies,Increases experience points gained from battle. Effective as long as at least one character is equipped with this effect.,勉学の極意,戦闘で獲得する経験値の量が上昇する誰か一人が装備しているだけで効果がある
+power-of-blessings,390,Power of Blessings,Increases attack power and success rates by a small amount.,祝福の力,攻撃の威力や成功確率が少しだけ上昇する
+blessing-of-feathers,391,Blessing of Feathers,A portion of HP damage and MP consumption are absorbed into the opposite pool. The effect is very small.,羽根の祝福,発生したＨＰダメージやＭＰの消費を、別々の値に還元して回復する。効果は非常に小さい
+power-of-growth,392,Power of Growth,Increases the expected value of damage by a slight amount. Higher level increases this effect.,成長の力,ダメージの期待値がわずかに上昇する。レベルが高くなるほど効果は大きくなる
+enhance-crit-s,393,Enhance Crit-S,Increases the damage bonus of critical hits by 5％.,会心強化・弱,クリティカル発生時のダメージボーナスが５％上昇する
+enhance-crit-m,394,Enhance Crit-M,Increases the damage bonus of critical hits by 7％.,会心強化・中,クリティカル発生時のダメージボーナスが７％上昇する
+enhance-crit-l,395,Enhance Crit-L,Increases the damage bonus of critical hits by 10％.,会心強化・強,クリティカル発生時のダメージボーナスが１０％上昇する
+enhance-crit-xl,396,Enhance Crit-XL,Increases the damage bonus of critical hits by 15％.,会心強化・超,クリティカル発生時のダメージボーナスが１５％上昇する
+fast-action,397,Fast Action,Fixed chance to shorten wait time after turns by a small amount. The chance is low.,ファストアクション,行動後の待機時間を一定の確率で少しだけ短縮する。発生確率は低め
+quick-action,398,Quick Action,Fixed chance to shorten wait time after turns by a small amount. The chance is fairly low.,クイックアクション,行動後の待機時間を一定の確率で少しだけ短縮する。発生確率はやや低め
+tireless-legs,399,Tireless Legs,HP and MP recovery rate while in the rear line is increased by a small amount.,疲れ知らずの足,後衛にいる間、ＨＰとＭＰの回復量が少しだけ増加する
+scholar-s-mentality,400,Scholar's Mentality,Increases maximum MP by 15.,学者の精神力,最大ＭＰの値が１５上昇する
+sage-s-mentality,401,Sage's Mentality,Increases maximum MP by 30.,大賢者の精神力,最大ＭＰの値が３０上昇する
+hp-regen-s-2,402,HP Regen-S,Recover a small amount of HP every turn.,ＨＰ再生・弱,行動時にＨＰが少しだけ回復する
+hp-regen-m-2,403,HP Regen-M,Recover a fair amount of HP every turn.,ＨＰ再生・中,行動時にＨＰがやや回復する
+hp-regen-l-2,404,HP Regen-L,Recover HP every turn.,ＨＰ再生・強,行動時にＨＰが回復する
+hp-regen-xl-2,405,HP Regen-XL,Recover a large amount of HP every turn.,ＨＰ再生・超,行動時にＨＰが大きく回復する
+critical-s,406,Critical-S,Increases critical hit chance by 10％.,クリティカル・弱,クリティカルの発生確率が１０％上昇する
+critical-m,407,Critical-M,Increases critical hit chance by 15％.,クリティカル・中,クリティカルの発生確率が１５％上昇する
+critical-l,408,Critical-L,Increases critical hit chance by 20％.,クリティカル・強,クリティカルの発生確率が２０％上昇する
+critical-xl,409,Critical-XL,Increases critical hit chance by 25％.,クリティカル・超,クリティカルの発生確率が２５％上昇する
+evade-attack-s,410,Evade Attack-S,Increases evasion rate by 3％.,攻撃回避・弱,攻撃の回避率が３％上昇する
+evade-attack-m,411,Evade Attack-M,Increases evasion rate by 5％.,攻撃回避・中,攻撃の回避率が５％上昇する
+evade-attack-l,412,Evade Attack-L,Increases evasion rate by 7％.,攻撃回避・強,攻撃の回避率が７％上昇する
+evade-attack-xl,413,Evade Attack-XL,Increases evasion rate by 10％.,攻撃回避・超,攻撃の回避率が１０％上昇する
+accuracy-increase-s,414,Accuracy Increase-S,Increases hit rate by 10％.,命中率上昇・弱,攻撃の命中率が１０％上昇する
+accuracy-increase-m,415,Accuracy Increase-M,Increases hit rate by 20％.,命中率上昇・中,攻撃の命中率が２０％上昇する
+accuracy-increase-l,416,Accuracy Increase-L,Increases hit rate by 30％.,命中率上昇・強,攻撃の命中率が３０％上昇する
+accuracy-increase-xl,417,Accuracy Increase-XL,Increases hit rate by 40％.,命中率上昇・超,攻撃の命中率が４０％上昇する
+avoid-ko-xs,418,Avoid KO-XS,Fixed chance when taking damage that would reduce HP to 0 that you will survive with 1 HP. The chance is very low.,戦闘不能回避・微,ダメージを受けてＨＰが０になるとき、一定の確率でＨＰ１で耐えることがある。発生確率は非常に低い
+avoid-ko-s,419,Avoid KO-S,Fixed chance when taking damage that would reduce HP to 0 that you will survive with 1 HP. The chance is low.,戦闘不能回避・弱,ダメージを受けてＨＰが０になるとき、一定の確率でＨＰ１で耐えることがある。発生確率は低い
+avoid-ko-m,420,Avoid KO-M,Fixed chance when taking damage that would reduce HP to 0 that you will survive with 1 HP. The chance is fairly low.,戦闘不能回避・中,ダメージを受けてＨＰが０になるとき、一定の確率でＨＰ１で耐えることがある。発生確率はやや低い
+avoid-ko-l,421,Avoid KO-L,Fixed chance when taking damage that would reduce HP to 0 that you will survive with 1 HP. The chance is moderate.,戦闘不能回避・強,ダメージを受けてＨＰが０になるとき、一定の確率でＨＰ１で耐えることがある。発生確率は中程度
+dmg-cut-xs,422,DMG Cut-XS,Reduces damage taken by 3％.,ダメージカット・微,ダメージの値を３％軽減する
+dmg-cut-s,423,DMG Cut-S,Reduces damage taken by 5％.,ダメージカット・弱,ダメージの値を５％軽減する
+dmg-cut-m,424,DMG Cut-M,Reduces damage taken by 7％.,ダメージカット・中,ダメージの値を７％軽減する
+dmg-cut-l,425,DMG Cut-L,Reduces damage taken by 10％.,ダメージカット・強,ダメージの値を１０％軽減する
+obliterate-monsters,426,Obliterate Monsters,Removes all enemy symbols from the field upon use. Does not affect powerful enemies.,魔物を消し去る,使用すると、フィールドにいる敵シンボルを全て消し去ることができる。ただし、強敵には効かない
+ultimate-life-energy,427,Ultimate Life Energy,Gain ultimate life energy. Increases maximum HP by 50.,究極の生命力,究極の生命力を得る。最大ＨＰが５０上昇する
+ultimate-mental-energy,428,Ultimate Mental Energy,Gain ultimate life energy. Increases maximum HP by 50.,究極の精神力,究極の精神力を得る。最大ＭＰが５０上昇する
+ultimate-power,429,Ultimate Power,Gain ultimate power. Critical hit damage increases by 20％.,究極の破壊力,究極の破壊力を得る。クリティカル時のダメージボーナスが２０％上昇する
+ultimate-movement,430,Ultimate Movement,Gain ultimate movement. Invincible against effect to slow you down.,究極の不動力,究極の不動力を得る。行動順を遅らせる効果を１００％無効化する
+ultimate-mp-drain,431,Ultimate MP Drain,Gain ultimate MP drain. 15％ of damage you receive becomes your MP.,究極の反転力,究極の反転力を得る。受けたダメージの１５％をＭＰダメージに転換し、軽減する
+ultimate-dexterity,432,Ultimate Dexterity,Gain ultimate dexterity. Wait time after using a skill decreases by 15％.,究極の瞬発力,究極の瞬発力を得る。スキルの行動後の待機時間が１５％短くなる
+ultimate-regen,433,Ultimate Regen,Gain ultimate regen. Regen 30 HP every time your turn.,究極の再生力,究極の再生力を得る。行動時にＨＰが３０ずつ回復するようになる
+ultimate-critical-hit,434,Ultimate Critical Hit,Gain ultimate critical hit. Chance of critical hit increases by 50％.,究極の会心力,究極の会心力を得る。クリティカルの発生確率が５０％上昇する
+ultimate-energy,435,Ultimate Energy,Gain ultimate energy. 15％ of damage you take becomes MP.,究極の転換力,究極の転換力を得る。受けたダメージの１５％がＭＰに還元される
+ultimate-attack,436,Ultimate Attack,Gain ultimate attack. Attack increases by 35.,究極の攻撃力,究極の攻撃力を得る。攻撃力が３５上昇する
+ultimate-fire-resistance,437,Ultimate Fire Resistance,Gain ultimate fire resistance. Become extremely resistant to fire.,究極の火耐性,究極の火耐性を得る。火超耐性を得る
+ultimate-wind-resistance,438,Ultimate Wind Resistance,Gain ultimate wind resistance. Become extremely resistant to wind.,究極の風耐性,究極の風耐性を得る。風超耐性を得る
+ultimate-power-up,439,Ultimate Power Up,Gain ultimate power up. Maximum HP and MP increases by 35.,究極の強化力,究極の強化力を得る。最大ＨＰとＭＰが３５上昇する
+ultimate-assist,440,Ultimate Assist,Gain ultimate assist. Assist effect increases by 15％.,究極の援護力,究極の援護力を得る。アシスト行動の効果が１５％強化される
+ultimate-skill,441,Ultimate Skill,Gain ultimate skill. Skill effect increases by 25％.,究極の補正力,究極の補正力を得る。スキルの威力が２５％上昇する
+ultimate-growth,442,Ultimate Growth,Gain ultimate growth. Damage increases by a large amount.,究極の成長力,究極の成長力を得る。ダメージの期待値が大幅に上昇する
+ultimate-revive,443,Ultimate Revive,Gain ultimate revive. Automatically revives on your next turn.,究極の復活力,究極の復活力を得る。戦闘不能になった次のターンが回ってきたとき、自動的に復活する能力を得る
+ultimate-comeback,444,Ultimate Comeback,Gain ultimate comeback. Your stats increase when battling tough enemies.,究極の逆転力,究極の逆転力を得る。強敵との戦闘時に能力が大きく上昇する
+ultimate-explosion,445,Ultimate Explosion,Gain ultimate explosion. During Burst stats increase by 15％.,究極の爆発力,究極の爆発力を得る。バースト中のダメージ補正が１５％上昇する
+ultimate-defense,446,Ultimate Defense,Gain ultimate defense. Defense increases by 35.,究極の防御力,究極の防御力を得る。防御力が３５上昇する
+ultimate-accuracy,447,Ultimate Accuracy,Gain ultimate accuracy. Accuracy increases by 50％.,究極の命中力,究極の命中力を得る。命中率が５０％上昇する
+ultimate-assist-speed,448,Ultimate Assist Speed,Gain ultimate assist speed. Assist gauge refills faster.,究極の回復力,究極の回復力を得る。アシストゲージの回復速度が大きく上昇する
+ultimate-resistance,449,Ultimate Resistance,Gain ultimate resistance. Resistance against all ailments.,究極の耐性力,究極の耐性力を得る。全ての状態異常への耐性を得る
+ultimate-action,450,Ultimate Action,Gain ultimate action. Increases speed by 35.,究極の行動力,究極の行動力を得る。素早さが３５上昇する
+ultimate-toughness,451,Ultimate Toughness,Gain ultimate toughness. 35％ chance of withstanding a KO by 1 HP.,究極の無敵力,究極の無敵力を得る。ダメージを受けて戦闘不能になるとき、３５％の確率でＨＰ１で耐える
+ultimate-fastness,452,Ultimate Fastness,Gain ultimate fastness. 30％ of decreasing your wait time by 15％.,究極の短縮力,究極の短縮力を得る。行動時、３０％の確率で行動後の待機時間を１５％短縮する
+ultimate-reduction,453,Ultimate Reduction,Gain ultimate reduction. Reduce all damage by 10％.,究極の軽減力,究極の軽減力を得る。全てのダメージを１０％軽減する
+ultimate-water-resistance,454,Ultimate Water Resistance,Gain ultimate water resistance. Become extremely resistant to water.,究極の水耐性,究極の水耐性を得る。水超耐性を得る
+ultimate-earth-resistance,455,Ultimate Earth Resistance,Gain ultimate earth resistance. Become extremely resistant to earth.,究極の土耐性,究極の土耐性を得る。土超耐性を得る
+ultimate-dodge,456,Ultimate Dodge,Gain ultimate dodge. Ability to dodge enemy attacks increase by 15％.,究極の回避力,究極の回避力を得る。回避率が１５％上昇する
+ultimate-burst,457,Ultimate Burst,Gain ultimate burst. Burst gauge increase by 75％ every time you attack.,究極の燃焼力,究極の燃焼力を得る。攻撃時のバーストゲージ増加量が７５％増える
+ultimate-break,458,Ultimate Break,Gain ultimate break. Break point increases during attack.,究極の気絶力,究極の気絶力を得る。攻撃時のブレイク値が大きく増える
+ultimate-evolution,459,Ultimate Evolution,Gain ultimate evolution. Stats increase depending on equipment.,究極の進化力,究極の進化力を得る。装備者のレベルに応じてパラメータが大きく強化される
+ultimate-resist-power,460,Ultimate Resist Power,Gain ultimate resist power. Damage you take and damage you inflict change against tough enemies.,究極の対抗力,究極の対抗力を得る。強大な敵との戦闘で、与えるダメージと受けるダメージが増減する
+master-s-used-article,461,Master's Used Article,It's totally beat after a lot of use by Wilbell. It doesn't have much of its original power remaining.,師匠のお古,ウィルベルが使い込んでボロボロになっている。本来の力はほとんど残っていないようだ
