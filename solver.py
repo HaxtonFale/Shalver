@@ -1,7 +1,7 @@
 import argparse
 import logging
 from enum import StrEnum
-from typing import List, Self, Tuple
+from typing import List, Self, Set, Tuple
 
 from termcolor import colored
 
@@ -24,7 +24,7 @@ class StepType(StrEnum):
     Disassemble = 'Disassemble'
 
 class Solution:
-    max_depth = 10
+    max_depth = 0
 
     def __init__(self, current_item: Item, next_step: Tuple[Self, StepType, Category | None] | None = None) -> None:
         self.current_item = current_item
@@ -63,6 +63,8 @@ def find_solution(added_item: Item, destination_item: Item, max_depth: int) -> S
     solutions: List[Solution] = list()
     solutions.append(Solution(destination_item))
 
+    visited_items: Set[Item] = set()
+
     def add_solution(solution: Solution) -> None:
         ingredient = solution.current_item
         if shallie.has_recipe(ingredient):
@@ -80,7 +82,11 @@ def find_solution(added_item: Item, destination_item: Item, max_depth: int) -> S
             try:
                 log.debug('Testing ingredient %s', ingredient)
                 if isinstance(ingredient, Item):
+                    if ingredient in visited_items:
+                        log.debug('Item already considered before. Skipping...')
+                        continue
                     log.debug('Ingredient identified as Item.')
+                    visited_items.add(ingredient)
                     new_solution = solution.add_step(ingredient, StepType.Synthesize)
                     if ingredient is added_item:
                         log.debug('Complete solution found!')
@@ -91,7 +97,11 @@ def find_solution(added_item: Item, destination_item: Item, max_depth: int) -> S
                     log.debug('Ingredient identified as category.')
                     category_items = shallie.get_category_items(ingredient)
                     for cat_item in category_items:
+                        if cat_item in visited_items:
+                            log.debug('Item already considered before. Skipping...')
+                            continue
                         log.debug('Testing ingredient %s', cat_item)
+                        visited_items.add(cat_item)
                         new_solution = solution.add_step(cat_item, StepType.SynthAsCat, ingredient)
                         if cat_item is added_item:
                             log.debug('Complete solution found!')
@@ -105,6 +115,10 @@ def find_solution(added_item: Item, destination_item: Item, max_depth: int) -> S
         log.debug('Found %i disassemblies', len(disassemblies))
         for disassembly in disassemblies:
             try:
+                if disassembly.source_item in visited_items:
+                    log.debug('Item already considered before. Skipping...')
+                    continue
+                visited_items.add(disassembly.source_item)
                 new_solution = solution.add_step(disassembly.source_item, StepType.Synthesize)
                 if disassembly.source_item is added_item:
                     return new_solution
@@ -129,4 +143,7 @@ src_item = shallie.get_item(args.source)
 dst_item = shallie.get_item(args.destination)
 
 print(f'Attempting to find a synthesis path from {colored(str(src_item), 'blue')} to {colored(str(dst_item), 'green')}')
-print(find_solution(src_item, dst_item, args.depth).print_solution())
+try:
+    print(find_solution(src_item, dst_item, args.depth).print_solution())
+except StopIteration:
+    print(colored('No valid solution found.', 'red'))

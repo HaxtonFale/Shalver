@@ -21,6 +21,17 @@
             "args": [
                 "-s", "Divine Coat", "-d", "Chronicle Bunker"
             ]
+        },
+        {
+            "name": "Known failure",
+            "type": "python",
+            "request": "launch",
+            "program": "solver.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "-s", "Craft", "-d", "Craft"
+            ]
         }
     ]
 }

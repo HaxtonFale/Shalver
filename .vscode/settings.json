@@ -1,9 +1,11 @@
 {
 	"python.analysis.typeCheckingMode": "basic",
 	"cSpell.words": [
+		"craftable",
 		"Desynths",
 		"nameof",
-		"shallie"
+		"shallie",
+		"termcolor"
 	],
 	"editor.insertSpaces": true
 }
