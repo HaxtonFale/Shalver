@@ -130,8 +130,8 @@ def find_solution(added_item: Item, destination_item: Item, max_depth: int) -> S
     raise StopIteration('No solution found')
 
 parser = argparse.ArgumentParser()
-parser.add_argument('-s', '--source', help='Item added to the recipe; source of a trait', choices=shallie.get_item_names(), type=str)
-parser.add_argument('-d', '--destination', help='Final recipe; destination of a trait', choices=shallie.get_recipe_names(), type=str)
+parser.add_argument('-s', '--source', help='Item added to the recipe; source of a trait', choices=shallie.get_item_names(shallie.get_trait_donors()), type=str)
+parser.add_argument('-d', '--destination', help='Final recipe; destination of a trait', choices=shallie.get_item_names(shallie.get_trait_recipients()), type=str)
 parser.add_argument('--depth', help='Maximum search depth. 0 for infinity.', type=int, default=10)
 parser.add_argument('-v', '--verbose', help='increase output verbosity', action='store_true')
 

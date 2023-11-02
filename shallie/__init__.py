@@ -1,7 +1,7 @@
 import csv
 import logging
 from os import path
-from typing import Dict, List, Tuple
+from typing import Dict, Iterable, List, Tuple
 
 from atelier_types import Category, Disassembly, Item, ItemType, Recipe
 
@@ -123,10 +123,15 @@ def load_data() -> None:
 
     log.info('Loaded all information.')
 
-def get_item_names() -> List[str]:
-    return [name for item in all_items.values() for name in (item.display_name, item.internal_name)]
+def get_item_names(items: Iterable[Item]) -> List[str]:
+    return [name for item in items for name in (item.display_name, item.internal_name)]
 
-def get_recipe_names():
-    return [name for item_key in all_recipes.keys() if (item := all_items[item_key])
-                     for name in (item.display_name, item.internal_name)]
+def get_trait_donors() -> Iterable[Item]:
+    for item in all_items.values():
+        if not item.is_stackable:
+            yield item
+
+def get_trait_recipients() -> Iterable[Item]:
+    for recipe_name in all_recipes:
+        yield all_items[recipe_name]
 
