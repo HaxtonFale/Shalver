@@ -1,36 +1,53 @@
 {
     "configurations": [
         {
+            "name": "Find Longest",
+            "type": "python",
+            "request": "launch",
+            "program": "find_longest.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
             "name": "Trivial test",
             "type": "python",
             "request": "launch",
-            "program": "solver.py",
+            "program": "solve.py",
             "console": "integratedTerminal",
             "justMyCode": true,
             "args": [
-                "-s", "Star Fruit", "-d", "Craft"
+                "-s",
+                "Star Fruit",
+                "-d",
+                "Craft"
             ]
         },
         {
             "name": "Complicated test",
             "type": "python",
             "request": "launch",
-            "program": "solver.py",
+            "program": "solve.py",
             "console": "integratedTerminal",
             "justMyCode": true,
             "args": [
-                "-s", "Divine Coat", "-d", "Chronicle Bunker"
+                "-s",
+                "Divine Coat",
+                "-d",
+                "Chronicle Bunker"
             ]
         },
         {
             "name": "Known failure",
             "type": "python",
             "request": "launch",
-            "program": "solver.py",
+            "program": "solve.py",
             "console": "integratedTerminal",
             "justMyCode": true,
             "args": [
-                "-s", "Craft", "-d", "Craft"
+                "-s",
+                "Craft",
+                "-d",
+                "Craft"
             ]
         }
     ]

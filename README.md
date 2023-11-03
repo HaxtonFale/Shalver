@@ -7,7 +7,7 @@ A simple solver designed to find a way to craft one item using another, in order
 Invoke the script directly with `--source` and `--destination` parameters to start finding a solution.
 
 ```bash
-python solver.py --source "Star Fruit" --destination Craft
+python solve.py --source "Star Fruit" --destination Craft
 ```
 
 This program requires Python 3.12.

@@ -8,5 +8,6 @@
 		"Shalver",
 		"termcolor"
 	],
-	"editor.insertSpaces": true
+	"editor.insertSpaces": true,
+	"files.trimTrailingWhitespace": true
 }
