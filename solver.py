@@ -45,8 +45,8 @@ class Solution:
                               f'with {colored(str(self.current_item), 'yellow')} ' +
                               f'as {colored(str(category), 'blue')}.')
                 case StepType.Disassemble:
-                    output = (f'Disassemble {colored(str(next_step.current_item), 'green')} ' +
-                              f'into {colored(str(self.current_item), 'blue')}')
+                    output = (f'Disassemble {colored(str(self.current_item), 'blue')} ' +
+                              f'into {colored(str(next_step.current_item), 'green')}')
             return f'{step}. ' + output + '\n' + next_step.print_solution(step + 1)
 
     def __repr__(self) -> str:
@@ -64,6 +64,7 @@ def find_solution_bfs(log: Logger, added_item: Item, destination_item: Item,
     solutions.append(Solution(destination_item))
 
     visited_items: Set[Item] = set()
+    visited_cats: Set[Category] = set()
 
     def add_solution(solution: Solution) -> None:
         ingredient = solution.current_item
@@ -81,7 +82,7 @@ def find_solution_bfs(log: Logger, added_item: Item, destination_item: Item,
         for ingredient in ingredients:
             try:
                 log.debug('Testing ingredient %s', ingredient)
-                if isinstance(ingredient, Item):
+                if type(ingredient) is Item:
                     if ingredient in visited_items:
                         log.debug('Item already considered before. Skipping...')
                         continue
@@ -93,8 +94,12 @@ def find_solution_bfs(log: Logger, added_item: Item, destination_item: Item,
                         return new_solution
                     else:
                         add_solution(new_solution)
-                elif isinstance(ingredient, Category):
+                elif type(ingredient) is Category:
+                    if ingredient in visited_cats:
+                        log.debug('Category already considered before. Skipping...')
+                        continue
                     log.debug('Ingredient identified as Category.')
+                    visited_cats.add(ingredient)
                     category_items = get_category_items(ingredient)
                     log.debug('Category %s has %i items', ingredient, len(category_items))
                     for cat_item in category_items:
@@ -121,7 +126,7 @@ def find_solution_bfs(log: Logger, added_item: Item, destination_item: Item,
                         log.debug('Item already considered before. Skipping...')
                         continue
                     visited_items.add(disassembly)
-                    new_solution = solution.add_step(disassembly, StepType.Synthesize)
+                    new_solution = solution.add_step(disassembly, StepType.Disassemble)
                     if disassembly is added_item:
                         return new_solution
                     else:
